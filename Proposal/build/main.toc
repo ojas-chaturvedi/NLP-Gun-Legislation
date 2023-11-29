@@ -6,6 +6,6 @@
 \contentsline {section}{\numberline {2}Statement of Purpose}{2}{section.2}%
 \contentsline {section}{\numberline {3}Background}{2}{section.3}%
 \contentsline {section}{\numberline {4}Significance}{2}{section.4}%
-\contentsline {section}{\numberline {5}Research Methodology}{3}{section.5}%
+\contentsline {section}{\numberline {5}Research Methodology}{2}{section.5}%
 \contentsline {section}{\numberline {6}Anticipated Problems}{3}{section.6}%
 \contentsline {section}{\numberline {7}Bibliography}{3}{section.7}%
