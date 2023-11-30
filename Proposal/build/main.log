@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.28)  29 NOV 2023 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.28)  30 NOV 2023 01:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -877,13 +877,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]) (./Sections/[7] Bibliography.tex
 LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 17.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 26.
+(Font)              scaled to size 12.0pt on input line 19.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 28.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 28.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -905,7 +905,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,557b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on build/main.pdf (3 pages, 109382 bytes).
+Output written on build/main.pdf (3 pages, 109380 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
