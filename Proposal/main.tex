@@ -25,7 +25,7 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=1.35in, right=1.35in, top=1.0in, bottom=.9in, headsep=.2in, footskip=0.35in]{geometry}
+\usepackage[left=1in, right=1in, top=1.0in, bottom=.9in, headsep=.2in, footskip=0.35in]{geometry}
 
 % Anchor footnotes to the bottom of the page
 \usepackage[bottom]{footmisc}
@@ -50,7 +50,7 @@
 % Set font size for section titles (\large) and subtitles (\normalsize) 
 \usepackage{titlesec}
 \titleformat{\section}{\large\bfseries}{{\fontsize{19}{19}\selectfont\textreferencemark}\;\; }{0em}{}
-\titleformat{\subsection}{\normalsize\bfseries\selectfont}{\thesubsection\;\;\;}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries\selectfont}{\thesubsection\;\;\; }{0em}{}
 
 % Enumerated/bulleted lists: make numbers/bullets flush left
 %\setlist[enumerate]{wide=2pt, leftmargin=16pt, labelwidth=0pt}
@@ -183,7 +183,7 @@
 
 % --- Left/right header text (to appear on every page) ---
 
-% Do not include a line under header or above footer
+% Do not include a line under the header or above the footer
 \pagestyle{fancy}
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand{\headrulewidth}{0pt}
@@ -193,7 +193,7 @@
 \fancyhead[R]{\small\textit{\nouppercase{\rightmark}}}
 
 % Left header text: Short course title, hyperlinked to table of contents
-\fancyhead[L]{\hyperref[sec:contents]{\small Bullet Points}}
+\fancyhead[L]{\hyperref[sec:contents]{\small Annotated Bibliography}}
 
 % --- Document starts here ---
 
@@ -201,13 +201,13 @@
 
 % --- Main title and subtitle ---
 
-\title{Bullet Points: NLP Dissection of Gun Control Discourse \\[1em]
-\normalsize AP Research \& Senior Research Project}
+\title{Bullet Points: NLP Dissection of Gun Control Discourse\\[1em]
+\large Proposal \\ \normalsize AP Research \& Senior Project}
 
 % --- Author and date of last update ---
 
 \author{\normalsize Ojas Chaturvedi}
-\date{\normalsize\vspace{-1ex} Last updated:\today}
+\date{\normalsize\vspace{-1ex} Last updated: \today}
 
 % --- Add title and table of contents ---
 
@@ -215,7 +215,7 @@
 \tableofcontents\label{sec:contents}
 
 % --- Main content: import lectures as subfiles ---
-
+\newpage
 \input{Sections/[1] Title}
 \input{Sections/[2] Purpose}
 \input{Sections/[3] Background}

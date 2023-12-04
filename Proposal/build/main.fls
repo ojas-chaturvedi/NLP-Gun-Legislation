@@ -1186,6 +1186,8 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 OUTPUT build/main.toc
+INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT ./Sections/[1] Title.tex
 INPUT ./Sections/[1] Title.tex
 INPUT ./Sections/[1] Title.tex
@@ -1199,9 +1201,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/zplTLF-Bold-ts1.tfm
-INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
 INPUT ./Sections/[2] Purpose.tex
 INPUT ./Sections/[2] Purpose.tex
 INPUT ./Sections/[2] Purpose.tex
@@ -1230,15 +1229,16 @@ INPUT Sections/[5] Methodology.tex
 INPUT ./Sections/[5] Methodology.tex
 INPUT ./Sections/[5] Methodology.tex
 INPUT Sections/[5] Methodology.tex
-INPUT ./Sections/[6] Problems.tex
-INPUT ./Sections/[6] Problems.tex
-INPUT ./Sections/[6] Problems.tex
-INPUT Sections/[6] Problems.tex
-INPUT ./Sections/[6] Problems.tex
-INPUT ./Sections/[6] Problems.tex
-INPUT Sections/[6] Problems.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
+INPUT ./Sections/[6] Problems.tex
+INPUT ./Sections/[6] Problems.tex
+INPUT ./Sections/[6] Problems.tex
+INPUT Sections/[6] Problems.tex
+INPUT ./Sections/[6] Problems.tex
+INPUT ./Sections/[6] Problems.tex
+INPUT Sections/[6] Problems.tex
 INPUT ./Sections/[7] Bibliography.tex
 INPUT ./Sections/[7] Bibliography.tex
 INPUT ./Sections/[7] Bibliography.tex

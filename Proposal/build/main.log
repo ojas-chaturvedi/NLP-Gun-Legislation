@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.28)  30 NOV 2023 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.28)  3 DEC 2023 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,14 +771,14 @@ Package hyperref Info: Link coloring ON on input line 200.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(97.56493pt, 419.16515pt, 97.56493pt)
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 657.65744pt, 65.04256pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=419.16515pt
+* \textwidth=469.75502pt
 * \textheight=657.65744pt
-* \oddsidemargin=25.29494pt
-* \evensidemargin=25.29494pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
 * \topmargin=-26.45377pt
 * \headheight=12.0pt
 * \headsep=14.45377pt
@@ -846,7 +846,9 @@ LaTeX Font Info:    Font shape `OT1/zplTLF/m/n' will be
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (./Sections/[1] Title.tex
+ [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (./Sections/[1] Title.tex
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
 (Font)              scaled to size 19.0pt on input line 4.
 LaTeX Font Info:    Trying to load font information for TS1+zplTLF on input line 4.
@@ -855,14 +857,7 @@ File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zplTLF
 )
 LaTeX Font Info:    Font shape `TS1/zplTLF/b/n' will be
 (Font)              scaled to size 19.0pt on input line 4.
- [1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}]) (./Sections/[2] Purpose.tex) (./Sections/[3] Background.tex) (./Sections/[4] Significance.tex
-Overfull \hbox (2.94621pt too wide) in paragraph at lines 6--2
-\T1/zplTLF/m/n/12 have take in this or re-lated top-ics, $[]$,
- []
-
-) (./Sections/[5] Methodology.tex) (./Sections/[6] Problems.tex
+) (./Sections/[2] Purpose.tex) (./Sections/[3] Background.tex) (./Sections/[4] Significance.tex) (./Sections/[5] Methodology.tex
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
@@ -875,7 +870,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]) (./Sections/[7] Bibliography.tex
+[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}]) (./Sections/[6] Problems.tex) (./Sections/[7] Bibliography.tex
 LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 19.
 LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 28.
@@ -899,13 +894,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  19851 strings out of 476025
  315388 string characters out of 5790016
- 1860388 words of memory out of 5000000
+ 1858388 words of memory out of 5000000
  39921 multiletter control sequences out of 15000+600000
  565640 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,557b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on build/main.pdf (3 pages, 109380 bytes).
+Output written on build/main.pdf (3 pages, 112223 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream

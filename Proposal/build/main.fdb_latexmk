@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1701332199 "/Users/oj/Documents/gun-debate/Proposal/main.tex" "build/main.pdf" "main" 1701332200 0
-  "/Users/oj/Documents/gun-debate/Proposal/main.tex" 1701332140 8112 cf24af859c3452a232b096bfbd9c3286 ""
+["pdflatex"] 1701667692 "/Users/oj/Documents/gun-debate/Proposal/main.tex" "build/main.pdf" "main" 1701667693 0
+  "/Users/oj/Documents/gun-debate/Proposal/main.tex" 1701667483 8142 88d668dc394de861f8215406c09152e5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc" 1638997615 2697 c0e4acf9af2683eef1d80f88a94044c0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1640468671 2914 8283dfc24eaf1964346f843d7605c2b0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -152,14 +152,14 @@
   "Sections/[1] Title.tex" 1701332090 801 91eb5ebeb44856df251ee16560d955ff ""
   "Sections/[2] Purpose.tex" 1701275548 354 01cebe1194c4f6073adda0a0acb881a0 ""
   "Sections/[3] Background.tex" 1701275671 535 0b4aed27a7adfc2d1296ce2678c6a121 ""
-  "Sections/[4] Significance.tex" 1701331996 439 1bd22be092c28327e4bf4d5829f788fd ""
+  "Sections/[4] Significance.tex" 1701667143 451 845c10d4e32ae501ca4d03b6b063d532 ""
   "Sections/[5] Methodology.tex" 1701276004 682 f552bbd7d9654d6c33e7ddde821b463e ""
   "Sections/[6] Problems.tex" 1701276064 420 4962dd42589547d14e155ca68b8825d9 ""
-  "Sections/[7] Bibliography.tex" 1701332199 1069 0bad1f4659c1534c51852b5b67d1f2fc ""
-  "build/main.aux" 1701332200 1905 178582ade6e8717b9c1482455f635a33 "pdflatex"
-  "build/main.out" 1701332200 1328 2f5b290b80174e86b60fb9af641f521d "pdflatex"
-  "build/main.toc" 1701332200 810 87062c31e105098fa3027d5e07f366e2 "pdflatex"
-  "main.tex" 1701332140 8112 cf24af859c3452a232b096bfbd9c3286 ""
+  "Sections/[7] Bibliography.tex" 1701667692 1070 17f955a490390f17f40eaa0bc0c34318 ""
+  "build/main.aux" 1701667693 1905 c2fa96268fb87c7a699ecee3555c3301 "pdflatex"
+  "build/main.out" 1701667693 1328 2f5b290b80174e86b60fb9af641f521d "pdflatex"
+  "build/main.toc" 1701667693 810 0447f6d33f3a2719c4ae320a1650a843 "pdflatex"
+  "main.tex" 1701667483 8142 88d668dc394de861f8215406c09152e5 ""
   (generated)
   "build/main.aux"
   "build/main.log"
