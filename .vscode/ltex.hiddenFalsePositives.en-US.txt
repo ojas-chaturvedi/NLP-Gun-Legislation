@@ -1,3 +1,0 @@
-{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QLast updated: .\\E$"}
-{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q.\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qsection.\\E$"}
