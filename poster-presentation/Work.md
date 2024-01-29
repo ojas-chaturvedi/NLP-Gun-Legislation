@@ -12,7 +12,7 @@ What insights can a multi-model sentiment analysis reveal about the framing of l
 
 The sentiment analysis of U.S. Congressional bills containing the term 'gun' from the 107 th to 118 th sessions demonstrates a clear trend of increasing polarization in legislative language. This analysis indicates that over time, bills have increasingly adopted more definitive stances, either strongly favoring gun control measures or advocating for gun rights, mirroring the deepening societal and political divide on gun-related issues.
 
-## Background/Context
+## Background / Context
 
 ### Contextualizing the Gun Control Debate
 
@@ -53,3 +53,23 @@ The sentiment analysis of U.S. Congressional bills containing the term 'gun' fro
 **Interplay of Societal Attitudes and External Events**: This project posits a complex relationship between stable societal attitudes and the influence of external events on legislative language, with sentiment analysis expected to detect these nuanced influences over the analyzed periods.
 
 **Representativeness and Generalizability of Legislative Analysis**: It is assumed that the selected bills for analysis accurately reflect broader legislative trends in gun control from the 107 th to 118 th Congress sessions, allowing for generalization of the findings to broader federal legislative trends.
+
+## Significance / Importance of Study
+
+
+
+## Method of Inquiry
+
+
+
+## Key Sources
+
+[1] O. Pichardo-Lagunas, B. Martinez-Seis, M. Hidalgo-Reyes, and S. Miranda, “Automatic detection of opposition relations in legal texts using sentiment analysis techniques: A case study,” _Acta Polytechnica Hungarica_, vol. 19, no. 10, pp. 165–184, 2022. doi: 10.12700/aph.19.10.2022.10.10
+
+[2] E. Laschever and D. S. Meyer, “Growth and decline of opposing movements: Gun control and gun rights, 1945–2015\*,” _Mobilization: An International Quarterly_, vol. 26, no. 1, pp. 1–20, Mar. 2021. doi: 10.17813/1086-671x-26-1-1
+
+[3] A. Yadav, A. Patel, and M. Shah, “A comprehensive review on resolving ambiguities in Natural Language Processing,” _AI Open_, vol. 2, pp. 85–92, 2021. doi: 10.1016/j.aiopen.2021.05.001
+
+[4] S. Zhang, “Sentiment classification of news text data using Intelligent Model,” _Frontiers in Psychology_, vol. 12, Sep. 2021. doi: 10.3389/fpsyg.2021.758967
+
+[5] Y.-H. Liu and Y.-L. Chen, “A two-phase sentiment analysis approach for judgement prediction,” _Journal of Information Science_, vol. 44, no. 5, pp. 594–607, Jul. 2017. doi: 10.1177/0165551517722741
