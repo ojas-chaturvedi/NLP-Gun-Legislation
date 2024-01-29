@@ -1,3 +1,4 @@
+# Tips & Guidelines
 ## Tips for research question wording
 Good research questions have the following features:
 - Simple
@@ -37,19 +38,19 @@ PERFORMANCE TESTING OF MODEL FOR A ROBOTIC PROSTHESIS
 
 **PROJECT DESCRIPTION**
 Have you ever wondered what it takes to power a powered foot-prosthesis? Or maybe you didn't know it needed power at all. For the past few years, powered foot-prostheses have become more and more popular in the world of physiology. How does this tie into the human body? The human ankle acts as a spring by exerting and releasing energy and force into the foot. The goal of the prosthesis is to generate the same amount of ankle torque that is given off by a human ankle during the gait cycle. The gait cycle is the sequence of events that occur during normal walking. By studying the forces exerted and created in the gait cycle, the NAU lab team can adjust the forces given off by the motor in the foot prosthesis to match those of an intact human ankle. My role is to aid the team in collecting and analyzing the data and applying the newly found modifications to the device. The long-term goal is to allow people with lower-limb amputations to walk as comfortably as possible along various terrains and to make walking with a prosthesis feel as if it were an intact human ankle. By conducting this sort of research, the field of physiology is advancing the technology used in foot- prosthesis devices which can further be used to advance the prosthesis devices of other body parts such as arms and legs.
-## Guidlines for Syllabus
-Student:
-Project Title:
-Location:
-BASIS Advisor:
-On-Site Advisor:
-On-Site Advisor Contact Information: (Include address, phone #, and email)
-Mode of Daily Contact: Blog
+## Guidelines for Syllabus
+Student:  
+Project Title:  
+Location:  
+BASIS Advisor:  
+On-Site Advisor:  
+On-Site Advisor Contact Information: (Include address, phone #, and email). 
+Mode of Daily Contact: Blog  
 ### Course Goals
 Example (based on AP Literature description):
 [Project Title] has two main objectives: first, I will gain a thorough introduction to the history of literature written originally in English, and second, I will acquire the skills and practice necessary to succeed on the AP Literature and Composition Exam and in the college classroom. In pursuit of these goals, the orientation of the course is simultaneously historical and literary: I will learn as much about the scope and chronology of philosophical movements that affect the history of literature written in English as I will about the interests and literary techniques of specific authors and works. In addition, a great portion of my energy will be devoted to acquiring and practicing the skills tested on the AP Exam and used on a daily basis in the college classroom.
 ### Course Texts:
-At least 2 full length books and at least three scholarly articles -- **no Wikipedia!!**
+At least 2 full length books and at least three scholarly articles -- **no Wikipedia!!**  
 Use proper bibliographic format.
 ### Project Product Description:
 Examples:
