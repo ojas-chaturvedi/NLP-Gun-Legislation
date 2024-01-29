@@ -1,3 +1,4 @@
+# Sentiment Classification of News Text Data Using Intelligent Model
 ## Citation
 S. Zhang, “Sentiment Classification of News Text Data Using Intelligent Model,” *Frontiers in Psychology*, vol. 12, Sep. 2021. DOI: 10.3389/fpsyg.2021.758967.
 ## Summary
