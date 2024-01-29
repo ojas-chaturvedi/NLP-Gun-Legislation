@@ -2,16 +2,16 @@
 
 The requirements for the AP Research Poster Presentation
 
-**Proposal Title:** Should be scholarly and appropriate in scope. Cleverness is optional.
-**Problem Statement** or **Background/Context**
-**Research Question**
-**Definitions**
-**Assumptions/Hypotheses**
-**Significance/Importance of Study:** How the study is new, valuable, fills a gap in the field of knowledge
-**Method of Inquiry**
-**Key Sources:** 3-5, listed in discipline-appropriate citation style
+**Proposal Title:** Should be scholarly and appropriate in scope. Cleverness is optional.  
+**Problem Statement** or **Background/Context**  
+**Research Question**  
+**Definitions**  
+**Assumptions/Hypotheses**  
+**Significance/Importance of Study:** How the study is new, valuable, fills a gap in the field of knowledge  
+**Method of Inquiry**  
+**Key Sources:** 3-5, listed in discipline-appropriate citation style  
 
-**Instructions:** You will present your inquiry, using the poster as a guide. Plan to speak for 5-10 (no more than 10!!) minutes. Be sure to plan and practice, as your delivery will also factor into your grade.
+**Instructions:** You will present your inquiry, using the poster as a guide. Plan to speak for 5-10 (no more than 10!!) minutes. Be sure to plan and practice, as your delivery will also factor into your grade.  
 
 |                                             | 1-2                                                                              | 3-4                                                                                      | 5-6                                                                                                              | 7-8                                                                                                                  | 9-10                                                                                                                                                    |
 | ------------------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
