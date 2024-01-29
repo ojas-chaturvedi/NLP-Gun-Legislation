@@ -1,4 +1,5 @@
 # Rubric
+
 The requirements for the AP Research Poster Presentation
 
 **Proposal Title:** Should be scholarly and appropriate in scope. Cleverness is optional.
