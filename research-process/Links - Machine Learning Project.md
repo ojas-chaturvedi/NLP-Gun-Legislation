@@ -65,3 +65,10 @@ https://github.com/HoveredCube
 [OJ C. -- Elevator Pitch Slideshow - Google Slides](https://docs.google.com/presentation/d/1rGMFymS_tLEPEv5g1_VQTyT9yBAbpdszGnkU7fDeFqE/edit#slide=id.gd9c453428_0_16)
 [OJ C. -- Inquiry Proposal Form 2023-2024 - Google Docs](https://docs.google.com/document/d/1g0kwX3Ba8kX31fCWghGVbhb19v7xwDB_ZKAAwMF51Zs/edit)
 [ChatGPT - AP Research Project (openai.com)](https://chat.openai.com/g/g-yGbqjqDNx-ap-research-project/c/2b34fee4-4767-43e2-a17b-65523b9aebe7)
+
+## More links abt sentiment analysis
+https://lance-eliot.medium.com/ai-law-legal-sentiment-analysis-and-opinion-mining-b09b505ec8a4
+https://www.youtube.com/watch?v=mtivfYNy3jg&pp=ygUYbGVnYWwgc2VudGltZW50IGFuYWx5c2lz
+https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english
+### Web scraping
+https://freedium.cfd/https://medium.com/@laerciosantanna/leveraging-web-scraping-for-sentiment-analysis-a-comprehensive-guide-e9f79b044da1
