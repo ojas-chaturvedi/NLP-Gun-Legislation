@@ -3,12 +3,14 @@ Link: https://link.springer.com/article/10.1007/s13178-022-00690-2
 Year: 2022
 Authors: DANNY VALDEZ, PATRICIA GOODSON
 DOI: 10.1007/s13178-022-00690-2
-Links: 
+Links:
 tags:
   - Literature-Review
   - Similar-Projects
 ---
+
 ### Abstract
+
 ```
 **Introduction:** This study employs sentiment analysis (SA) to examine the semantic structures of restrictive and protective abortion bills enacted in 2019. SA is a Natural Language Processing (NLP) technique that uses automation to extract affective indicators (emotive language) from text data. Assessing these indicators can help identify whether legal texts are framed, or intentionally biased in their wording. Identifying framing is important for understanding potentially biased interpretations of these laws.
 
