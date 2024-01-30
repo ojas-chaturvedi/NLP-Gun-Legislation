@@ -10,7 +10,7 @@ What insights can a multi-model sentiment analysis reveal about the framing of l
 
 ## Hypothesis
 
-The sentiment analysis of U.S. Congressional bills containing the term 'gun' from the 107 th to 118 th sessions demonstrates a clear trend of increasing polarization in legislative language. This analysis indicates that over time, bills have increasingly adopted more definitive stances, either strongly favoring gun control measures or advocating for gun rights, mirroring the deepening societal and political divide on gun-related issues.
+The sentiment analysis of U.S. Congressional bills containing the term 'gun' from the 107th to 118th sessions demonstrates a clear trend of increasing polarization in legislative language. This analysis indicates that over time, bills have increasingly adopted more definitive stances, either strongly favoring gun control measures or advocating for gun rights, mirroring the deepening societal and political divide on gun-related issues.
 
 ## Background / Context
 
@@ -56,39 +56,47 @@ The sentiment analysis of U.S. Congressional bills containing the term 'gun' fro
 
 ## Significance / Importance of Study
 
-### Filling a Crucial Gap in Legislative Analysis
+This study holds paramount significance within the realm of legislative analysis, particularly in the intricate landscape of gun control. Its pioneering use of sentiment analysis to unravel the emotional and rhetorical dimensions of legislative bills fills a critical void in the field. Traditionally, legislative analysis has predominantly focused on the legal and policy aspects of bills, often overlooking the emotional underpinnings that significantly shape legislative language. By embracing sentiment analysis, this study delves into uncharted territory, shedding light on the nuanced sentiments embedded within gun control bills.
 
-This study holds substantial significance in the field of legislative analysis, particularly concerning gun control. While sentiment analysis has found application in various domains, its utilization in dissecting the emotional and rhetorical aspects of legislative bills, especially in the context of gun control, remains largely unexplored. By pioneering this approach, the study ventures into uncharted territory, offering fresh insights into the nuanced language and sentiments embedded in these critical documents.
+The value of this study is multi-fold. Firstly, it enriches our comprehension of legislative rhetoric, providing a holistic understanding of how emotions and rhetorical strategies permeate these critical documents. By uncovering the emotional tones, persuasive techniques, and framing strategies employed by legislators, it offers a deeper insight into how lawmakers convey their messages on the contentious issue of gun control. This knowledge is invaluable for policymakers, who can make more informed decisions by considering not just the legal text but also the emotional tenor of proposed bills.
 
-### Enhancing Understanding of Legislative Rhetoric
+Secondly, this research benefits legal practitioners by providing a novel tool for crafting persuasive arguments. By tapping into the insights gained from sentiment analysis, attorneys can strategically navigate the emotional landscape of gun control legislation, enhancing their ability to advocate effectively in the legal arena.
 
-Traditionally, legislative analysis has been confined to legal and policy aspects, often missing the emotional and psychological dimensions that underlie legislative language. By employing sentiment analysis, this study aims to bridge this gap, providing a more holistic understanding of gun control bills. It not only enriches our comprehension of the emotional underpinnings of legislative rhetoric but also contributes to a broader comprehension of how legislators craft their messages on this pivotal issue.
+Furthermore, this study serves as a pioneering example of how sentiment analysis, powered by advanced Natural Language Processing techniques, can be applied to legislative analysis. It extends the boundaries of sentiment analysis, showcasing its versatility in unraveling the subtle nuances of legal texts. This methodology sets a precedent for future studies, not only in the domain of gun control but across various legislative topics. It opens up new avenues for research, promising a deeper understanding of legislative language and sentiment in an era where data-driven approaches are becoming increasingly essential.
 
-### Informing Policymakers, Legal Practitioners, and the Public
-
-The findings of this research have practical implications. Policymakers can benefit from a deeper understanding of linguistic strategies and emotional undertones within gun control legislation to inform their decisions. Legal practitioners can craft more persuasive arguments by tapping into the insights gained from sentiment analysis. Additionally, the general public can engage in more nuanced discussions about gun control, driven by a deeper comprehension of the linguistic strategies employed by lawmakers.
-
-### Advancing the Application of Sentiment Analysis in Legislation
-
-This study pushes the boundaries of sentiment analysis in the legislative domain. By applying advanced Natural Language Processing techniques to analyze legislative bills, it demonstrates the versatility of sentiment analysis as a powerful tool for uncovering the subtle nuances in legal texts. The methodology employed here can serve as a blueprint for future studies, not only in the realm of gun control but across various legislative topics, opening up new avenues for research.
-
-In conclusion, this study's significance lies in its innovative approach to understanding the intricate language of gun control legislation, filling a critical gap in legislative analysis, and offering practical insights for policymakers, legal practitioners, and the broader public. By forging new paths in sentiment analysis within the legislative context, it contributes to both academic knowledge and real-world decision-making processes.
+In conclusion, the significance and importance of this study lie in its innovative approach to understanding the emotional dimensions of gun control legislation, bridging a substantial gap in legislative analysis. It offers practical insights for policymakers and legal practitioners, while also contributing to the broader academic discourse by advancing the application of sentiment analysis in the legislative domain. This endeavor has the potential to shape not only how we perceive legislative language but also how we engage in discussions and decisions on one of the most contentious issues in contemporary society.
 
 ## Method of Inquiry
 
-I employ a mixed-methods approach through advanced Natural Language Processing (NLP) techniques. The approach will focus on sentiment, content, thematic, frequency, and cluster analysis.
+### Data Collection
 
-The primary data used for the analysis will come from laws relating to gun control, federal gun control case transcripts, legal briefs, and court opinions from 2000 to 2022. These documents were selected using (need to come up with randomized sampling method), ensuring the dataset is representative and comprehensive of the overall field.
+The first step in our methodology involves harnessing the power of the Playwright web automation library in conjunction with the GovTrack.US API. This combined approach allows us to gather comprehensive data on congressional gun legislation introduced in the U.S. Congress during the 107th to 118th sessions. The data is meticulously collected and structured in JSON format, ensuring that we capture a detailed snapshot of legislative activities during the specified time frame.
 
-To prepare the data for analysis, the NLP techniques will first utilize an algorithm that conducts text normalization and anonymization, ensuring the removal of any identifiable information in accordance with ethical practices.
+### Data Preprocessing
 
-For the sentiment analysis, I utilize BERT (even though I finalized the analysis and ensured that it works, I haven’t chosen the model yet, but they are all beneficial) for its accuracy and relevance to legal texts. BERT will assign numerical sentiment scores to the text, ranging from highly negative to highly positive, based on a 10-point scale.
+Following data collection, a crucial preprocessing step is employed to refine the dataset. This step serves the dual purpose of enhancing data quality and mitigating potential ethical concerns. Data points that might raise ethical issues or distort the analysis are systematically removed, ensuring that our subsequent analysis remains ethically sound and methodologically robust.
 
-For the content analysis, which will categorize the data based on the outcomes (pro-gun rights or pro-gun control), a systematic examination of case decisions and arguments will be conducted to identify recurring themes and rhetorical strategies. Key themes, rhetorical strategies, and legal reasoning will be identified and coded using a structured coding scheme. This scheme will be developed based on initial readings and refined iteratively as the analysis progresses.
+### Linguistic Landscape Modeling (LLM)
 
-To validate my findings, I will cross-reference results using multiple NLP tools and compare them against a secondary dataset.
+With the curated dataset in hand, we turn to Linguistic Landscape Modeling (LLM) to categorize the gathered gun legislation. LLM, a state-of-the-art approach in Natural Language Processing, enables us to extract meaningful insights by analyzing the textual content of bills. Through this categorization, we gain a comprehensive understanding of the legislative landscape, allowing for a nuanced sentiment analysis.
 
-However, I acknowledge potential limitations, such as the inherent subjectivity and biases within the NLP tools.\*\*
+### Sentiment Analysis
+
+The heart of our methodology lies in the sentiment analysis of the categorized gun legislation. Leveraging advanced sentiment analysis techniques, we dissect the emotional tone, rhetorical strategies, and sentiment of each legislative document. This step unveils the emotional undercurrents that often remain concealed in traditional legislative analysis, providing a profound insight into the language and sentiments embedded in the bills.
+
+### Data Visualization and Analysis
+
+To complement our sentiment analysis, we employ cutting-edge graph libraries and data visualization tools. These tools enable us to craft compelling visual representations of the data, illuminating patterns, trends, and correlations that might otherwise remain hidden. By visually exploring the data, we gain a deeper understanding of the intricate relationships between legislative language, sentiments, and policy outcomes.
+
+### Iterative Analysis
+
+Our methodology is not static but iterative. We continually refine our approach, incorporating feedback and insights as we progress. This iterative nature ensures that our analysis remains dynamic, responsive to emerging patterns, and adaptable to evolving legislative landscapes.
+
+### Ethical Considerations
+
+Throughout the entire process, we remain steadfast in our commitment to ethical research practices. We uphold the highest standards of data privacy and adhere to ethical guidelines, ensuring that our research respects the rights and confidentiality of all stakeholders involved.
+
+In summary, our method of inquiry is a meticulously crafted, multi-stage process that combines data collection, preprocessing, advanced NLP techniques, sentiment analysis, data visualization, and ethical considerations. This comprehensive approach equips us with the tools and insights necessary to unravel the emotional dimensions of gun control legislation in the U.S. Congress, shedding light on this critical issue from a novel perspective.
 
 ## Key Sources
 
