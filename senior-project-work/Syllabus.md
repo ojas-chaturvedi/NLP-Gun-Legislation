@@ -21,8 +21,19 @@ Example (based on AP Literature description):
 
 ### Course Texts:
 
-At least 2 full length books and at least three scholarly articles - **no Wikipedia!!**
-Use proper bibliographic format.
+[1] O. Pichardo-Lagunas, B. Martinez-Seis, M. Hidalgo-Reyes, and S. Miranda, “Automatic detection of opposition relations in legal texts using sentiment analysis techniques: A case study,” _Acta Polytechnica Hungarica_, vol. 19, no. 10, pp. 165–184, 2022. doi: 10.12700/aph.19.10.2022.10.10
+
+[2] E. Laschever and D. S. Meyer, “Growth and decline of opposing movements: Gun control and gun rights, 1945–2015\*,” _Mobilization: An International Quarterly_, vol. 26, no. 1, pp. 1–20, Mar. 2021. doi: 10.17813/1086-671x-26-1-1
+
+[3] A. Yadav, A. Patel, and M. Shah, “A comprehensive review on resolving ambiguities in Natural Language Processing,” _AI Open_, vol. 2, pp. 85–92, 2021. doi: 10.1016/j.aiopen.2021.05.001
+
+[4] S. Zhang, “Sentiment classification of news text data using Intelligent Model,” _Frontiers in Psychology_, vol. 12, Sep. 2021. doi: 10.3389/fpsyg.2021.758967
+
+[5] Y.-H. Liu and Y.-L. Chen, “A two-phase sentiment analysis approach for judgement prediction,” _Journal of Information Science_, vol. 44, no. 5, pp. 594–607, Jul. 2017. doi: 10.1177/0165551517722741
+
+[6] A. C. Müller and S. Guido, Introduction to Machine Learning with Python: A Guide for Data Scientists. Sebastopol: O’Reilly Media, 2016. 
+
+[7] A. Burkov, The Hundred-Page Machine Learning Book. Orlando, FL: Andriy Burkov, 2023. 
 
 ### Project Product Description:
 
