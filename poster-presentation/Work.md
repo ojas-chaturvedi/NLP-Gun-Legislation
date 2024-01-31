@@ -1,5 +1,26 @@
 # Work
 
+- [Work](#work)
+  - [Project Title](#project-title)
+  - [Research Question](#research-question)
+  - [Hypothesis](#hypothesis)
+  - [Background / Context](#background--context)
+    - [Contextualizing the Gun Control Debate](#contextualizing-the-gun-control-debate)
+    - [Rationale for Using Sentiment Analysis](#rationale-for-using-sentiment-analysis)
+  - [Definitions](#definitions)
+  - [Assumptions](#assumptions)
+  - [Significance / Importance of Study](#significance--importance-of-study)
+  - [Method of Inquiry](#method-of-inquiry)
+    - [Data Collection](#data-collection)
+    - [Data Preprocessing](#data-preprocessing)
+    - [Linguistic Landscape Modeling (LLM)](#linguistic-landscape-modeling-llm)
+    - [Sentiment Analysis](#sentiment-analysis)
+    - [Data Visualization and Analysis](#data-visualization-and-analysis)
+    - [Iterative Analysis](#iterative-analysis)
+    - [Ethical Considerations](#ethical-considerations)
+  - [Key Sources](#key-sources)
+
+
 ## Project Title
 
 Shooting Through the Text: Uncovering Sentiments in Congressional Gun Legislation
