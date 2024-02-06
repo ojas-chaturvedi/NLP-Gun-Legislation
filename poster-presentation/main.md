@@ -1,6 +1,6 @@
-# Poster Presentation Work
+# Text for Poster
 
-- [Poster Presentation Work](#poster-presentation-work)
+- [Text for Poster](#text-for-poster)
   - [Project Title](#project-title)
   - [Research Question](#research-question)
   - [Hypothesis](#hypothesis)
