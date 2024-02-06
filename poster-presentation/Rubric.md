@@ -25,3 +25,11 @@ The requirements for the AP Research Poster Presentation
 | **Movement to emphasize information**       | No movement or descriptive gestures.                                             | Student uses little movement; movements distract from rather than enhancing information. | Movements may seem rehearsed or distracting at times, but effort to enhance communication is clear.             | Occasional movements are fluid and call attention to important points, helping audience comprehension.               | Movements are fluid and call attention to important points, helping audience comprehension.                                                             |
 | **Tempo to engage audience**                | Presentation zooms by or plods along. Audience is left asleep or bewildered.     | Student noticeably goes too quickly or too slowly most of the time.                      | Student noticeable goes too quickly or too slowly at times.                                                     | Student usually presents information quickly enough to maintain interest but not too quickly for audience to follow. | Student presets information quickly enough to maintain interest but not too quickly for audience to follow.                                             |
 | **Overall poise**                           | Tension and nervousness are obvious; student is unable to recover from mistakes. | Student appears nervous and has difficulty recovering from mistakes.                     | Student appears mostly relaxed and self-confident. Student recovers from most mistakes.                         | Student appears relaxed and self-confident, with minimal mistakes.                                                   | Student appears relaxed and self-confident, with very few or no mistakes.                                                                               |
+
+
+**Recieved Score**: 95/100
+
+**Feedback for improvement**:
+- Some reading from posters, bring that down to 0
+- Identify gap more clearly
+- Increase hand gestures
