@@ -5,14 +5,14 @@
 #show par: set block(spacing: 0.55em)
 #show heading: set block(above: 1.4em, below: 1em)
 
-= Tips and Guidlines for SRP work
+= Tips and Guidelines for SRP work
 
 == Research Question Wording
 
 Good research questions have the following features:
 
 - Simple
-- Require judgement
+- Require judgment
 - Lead to debate
 - Has multiple perspectives
 - Manageable scope
@@ -33,7 +33,7 @@ work.
   topic? An investigation of a field or career that contributes to your
   understanding/future plans?
 - *Significance:* Write why this project or problem is significant. Even if there
-  is no indication on how the project will turn out, or what results may be
+  is no indication of how the project will turn out, or what results may be
   produced, #underline[the reader should understand why it's important].
 - *External Experience:* Explain where the project will be conducted (whether in
   person or remotely), and state why this location/company/group is a good place
@@ -46,7 +46,7 @@ work.
 
 === Tips
 
-- Keep it in present tense as much as possible (incorporation future tense where
+- Keep it in the present tense as much as possible (incorporate future tense where
   appropriate for results not known, i.e., "This project addresses X, and will
   evaluate the effectiveness of doing Y in Z conditions"). Even if some of the
   results are already known, keep the tone of the project description more like a
@@ -55,7 +55,7 @@ work.
 - Find other readers who can say whether or not the project description is
   cohesive and clear, and if anything can be cut.
 - Keep it concise --- try to complete the project description in fewer than 250
-  words, as even a 250 word project description might not fit in the allotted
+  words, as even a 250-word project description might not fit in the allotted
   space.
 - Remember that the project description might need to be revised during time off
   campus, so check for email from the advisor or administration often.
@@ -107,3 +107,17 @@ and to make walking with a prosthesis feel as if it were an intact human ankle.
 By conducting this sort of research, the field of physiology is advancing the
 technology used in foot- prosthesis devices which can further be used to advance
 the prosthesis devices of other body parts such as arms and legs.
+
+== Blogs
+
+=== Requirements
+
+- Senior Project and AP Research participants must post in a blog at least once a week for the 10 weeks that they are off campus.
+- Students must also respond to a minimum of two of their classmates' blogs each week.
+- Students may not post profanity, copyrighted images, and/or other inappropriate materials.
+- Message from Legal Team: You must use caution in posting images to your senior blogs. You must have a right to use the image that you post, either because it is your original work or you have secured the appropriate permissions from the owner of the image. To do so, you will need to check the copyright requirements, which are usually found at a link on the page on which you located the image. You must also ensure that any images posted are appropriate for use in connection with a school project. All school rules and the Code of Conduct apply to what you post on your senior blog.
+  - If you do have permission to use text or an image, cite your sources for text and images. All bloggers, regardless of platforms or purpose, are responsible for documenting the information, images, and other content they access from anywhere other than their own experience. If the photos are from your friend, cite it as "photo courtesy of \[Jane Doe\]." If you cannot identify the person who made the content, cite the website you accessed it from.
+
+=== Tips and Guidelines
+- Please consider your ideal audience for your blog entries. While you can never be sure who exactly is reading your blogs, there _will_ be people from your school's administration, BASIS.ed, and the colleagues of your off-campus adviser. Additionally, we know that many different college admissions representatives check in on the blogs, so keep them focused on your project! Each entry should be a reflection of your academic self.
+- Everyone at some point will feel stuck. Maybe you have a hypothesis that does not work out, or you are sick for one week. Maybe the worst happens, and your on-site advisor backs out, or your location can no longer be used. This has happened before, and will happen again! Try to make sure you are still blogging about what avenues you are exploring to make it through the problem. Read what you are interested in, and write reviews of articles or books related to your area of interest. These are problems you are likely to face in college or career; showcase that you can make the best of it.
