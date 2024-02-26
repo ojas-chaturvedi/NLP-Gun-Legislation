@@ -37,9 +37,8 @@ def main(url):
     del text_list[:index + 1]
     del text_list[-1]
 
-    # with open("web-scraper-testing.html", "w") as f:
-    #     for i in tag_list:
-    #         f.write(i)
+    text_join = " ".join(text_list)
+    print(text_join)
 
 if __name__ == "__main__":
     """ This is executed when run from the command line """
