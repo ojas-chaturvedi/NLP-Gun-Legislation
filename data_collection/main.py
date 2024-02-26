@@ -24,6 +24,9 @@ def main():
     for row in reader:
         rows.append(row)
 
+    # Close file to be more memory-efficient
+    file.close()
+
 
 
 if __name__ == "__main__":
