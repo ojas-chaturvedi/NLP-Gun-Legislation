@@ -10,9 +10,8 @@ __license__ = "MIT"
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-def main(url):
-    """ Main entry point of the file """
 
+def main(url):
     driver = webdriver.Chrome()
     driver.get(url)
     html = driver.page_source
@@ -29,17 +28,21 @@ def main(url):
     index = 0
 
     for i in range(len(text_list)):
-        if text_list[i] == "_______________________________________________________________________":
+        if (
+            text_list[i]
+            == "_______________________________________________________________________"
+        ):
             count += 1
             if count == occurrence:
                 index = i
 
-    del text_list[:index + 1]
+    del text_list[: index + 1]
     del text_list[-1]
 
     text_join = " ".join(text_list)
     print(text_join)
 
+
 if __name__ == "__main__":
-    """ This is executed when run from the command line """
-    main('https://www.congress.gov/bill/117th-congress/house-bill/7544/text?format=txt')
+    # Test url
+    main("https://www.congress.gov/bill/117th-congress/house-bill/7544/text?format=txt")
