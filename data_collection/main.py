@@ -7,7 +7,7 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
-from web_scraper import main
+from web_scraper import web_scraper
 
 def main():
     print("Hello World!")
