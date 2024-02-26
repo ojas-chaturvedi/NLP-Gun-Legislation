@@ -9,6 +9,8 @@ __license__ = "MIT"
 
 import csv
 from web_scraper import web_scraper
+from time import time
+
 
 def main():
     # Open and read csv file
@@ -34,4 +36,9 @@ def main():
 
 
 if __name__ == "__main__":
+    # Run function and see how long it takes
+    start_time = time()
     main()
+    end_time = time()
+    execution_time = end_time - start_time
+    print(execution_time)
