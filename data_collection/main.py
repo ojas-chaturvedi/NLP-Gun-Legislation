@@ -19,6 +19,11 @@ def main():
     for i in range(6):
         next(reader)
 
+    # Append all legislation-info rows to list
+    rows = []
+    for row in reader:
+        rows.append(row)
+
 
 
 if __name__ == "__main__":
