@@ -4,7 +4,7 @@ Web Scraper to receive legislation from Congress.gov
 """
 
 __author__ = "Ojas Chaturvedi"
-__version__ = "0.1.0"
+__github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
 from selenium import webdriver
