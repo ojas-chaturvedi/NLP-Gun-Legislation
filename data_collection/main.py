@@ -27,6 +27,10 @@ def main():
     # Close file to be more memory-efficient
     file.close()
 
+    # Print out all of the legislation links
+    for row in rows:
+        print(row[1])
+        print("\n")
 
 
 if __name__ == "__main__":
