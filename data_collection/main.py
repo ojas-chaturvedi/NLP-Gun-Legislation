@@ -15,6 +15,10 @@ def main():
     file = open("URL_links.csv")
     reader = csv.reader(file)
 
+    # Skip the first 6 rows with useless download information
+    for i in range(6):
+        next(reader)
+
 
 
 if __name__ == "__main__":
