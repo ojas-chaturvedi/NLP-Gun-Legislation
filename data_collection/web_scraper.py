@@ -11,7 +11,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 
 
-def main(url):
+def web_scraper(url):
     driver = webdriver.Chrome()
     driver.get(url)
     html = driver.page_source
@@ -45,4 +45,4 @@ def main(url):
 
 if __name__ == "__main__":
     # Test url
-    main("https://www.congress.gov/bill/117th-congress/house-bill/7544/text?format=txt")
+    web_scraper("https://www.congress.gov/bill/117th-congress/house-bill/7544/text?format=txt")
