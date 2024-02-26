@@ -10,10 +10,8 @@ __license__ = "MIT"
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-def main():
+def main(url):
     """ Main entry point of the file """
-
-    url = 'https://www.congress.gov/bill/114th-congress/house-resolution/656/text?format=txt'
 
     driver = webdriver.Chrome()
     driver.get(url)
@@ -35,4 +33,4 @@ def main():
 
 if __name__ == "__main__":
     """ This is executed when run from the command line """
-    main()
+    main('https://www.congress.gov/bill/117th-congress/house-bill/7544/text?format=txt')
