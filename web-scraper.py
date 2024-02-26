@@ -24,10 +24,18 @@ def main(url):
 
     text_list = text.split()
 
-    tag = doc.pre
-    print(tag.prettify())
-    # print(tag.type)
-    # tag_list = tag.split()
+    count = 0
+    occurrence = 2
+    index = 0
+
+    for i in range(len(text_list)):
+        if text_list[i] == "_______________________________________________________________________":
+            count += 1
+            if count == occurrence:
+                index = i
+
+    del text_list[:index + 1]
+    del text_list[-1]
 
     # with open("web-scraper-testing.html", "w") as f:
     #     for i in tag_list:
