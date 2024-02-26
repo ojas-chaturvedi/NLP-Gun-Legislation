@@ -19,8 +19,10 @@ def main(url):
     driver.close()
 
     doc = BeautifulSoup(html, "html.parser")
+    tag = doc.pre
+    text = tag.string
 
-    # print(doc.prettify())
+    text_list = text.split()
 
     tag = doc.pre
     print(tag.prettify())
