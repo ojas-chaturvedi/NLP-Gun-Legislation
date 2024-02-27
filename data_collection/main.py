@@ -28,15 +28,8 @@ def main():
     file.close()
 
 
-from firebase_admin import *
 
 
-def testing_database():
-    cred = credentials.Certificate("data_collection/firebase_credentials.json")
-    initialize_app(
-        cred,
-        {"databaseURL": "https://nlp-gun-legislation-default-rtdb.firebaseio.com/"},
-    )
 
 
 if __name__ == "__main__":
