@@ -19,18 +19,15 @@ def main():
     file = open("data_collection/URL_links.csv")
     reader = csv.reader(islice(file, 6, None))
 
-    # Append all legislation-info rows to list
-    rows = []
+    # Print all modified legislation links
+    # Run web_scraper script in all legislation links
     for row in reader:
-        rows.append(row)
+        print(row[1] + "/text?format=txt")
+        web_scraper(row[1] + "/text?format=txt")
 
     # Close file to be more memory-efficient
     file.close()
 
-    # Print out all of the legislation links
-    for row in rows:
-        print(row[1])
-        print("\n")
 
 
 if __name__ == "__main__":
