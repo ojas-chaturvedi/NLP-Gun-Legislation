@@ -7,7 +7,6 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
-import csv
 from csv import reader
 from web_scraper import web_scraper
 from time import time
@@ -17,7 +16,7 @@ from itertools import islice
 def main():
     # Open and read csv file, while skipping the first 6 rows with useless bulk download information
     file = open("data_collection/URL_links.csv")
-    reader = csv.reader(islice(file, 6, None))
+    rows = reader(islice(file, 6, None))
 
     # Print all modified legislation links
     # Run web_scraper script in all legislation links
