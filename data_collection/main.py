@@ -16,18 +16,22 @@ from json import load, dump, JSONDecodeError
 
 
 def main():
-    # Open and read csv file, while skipping the first 6 rows with useless bulk download information
-    file = open("data_collection/URL_links.csv")
-    rows = reader(islice(file, 6, None))
+    # Open and read CSV file, skipping the first 6 rows with bulk download information
+    with open("data_collection/testing_links.csv") as file:
+        rows = reader(islice(file, 6, None))
 
-    # Print all modified legislation links
-    # Run web_scraper script in all legislation links
-    for row in rows:
-        name = row[0]
-        url = row[1]
-        type = get_legislation_type(name)
-        text = web_scraper(url)
-        save_data(type, name, url, text)
+        # Process each row in the CSV file
+        for row in rows:
+            name = row[0]
+            url = row[1]
+
+            # Determine the type of legislation based on its name abbreviation
+            legislation_type = get_legislation_type(name)
+
+            # Scrape the web content from the URL
+            text = web_scraper(url)
+
+            save_data(legislation_type, name, url, text)
 
     # Close file to be more memory-efficient
     file.close()
