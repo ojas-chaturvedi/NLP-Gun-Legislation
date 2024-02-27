@@ -36,9 +36,9 @@ def web_scraper(url):
     count = 0
     occurrence = 2
     index = 0
-    for i in range(len(text_list)):
+    for i, word in enumerate(text_list):
         if (
-            text_list[i]
+            word
             == "_______________________________________________________________________"
         ):
             count += 1
