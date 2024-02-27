@@ -53,7 +53,24 @@ def web_scraper(url):
 
 
 if __name__ == "__main__":
-    # Test url
-    web_scraper(
-        "https://www.congress.gov/bill/117th-congress/house-resolution/437",
+    # Test URLs
+    print(
+        web_scraper(
+            "https://www.congress.gov/bill/117th-congress/house-bill/7544",
+        )
+    )
+    print(
+        web_scraper(
+            "https://www.congress.gov/bill/117th-congress/house-resolution/437",
+        )
+    )
+    print(
+        web_scraper(
+            "https://www.congress.gov/bill/117th-congress/senate-joint-resolution/49",
+        )
+    )
+    print(
+        web_scraper(
+            "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/46",
+        )
     )
