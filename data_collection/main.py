@@ -10,8 +10,8 @@ __license__ = "MIT"
 
 from web_scraper import web_scraper
 from csv import reader
-from time import time
 from itertools import islice
+from time import time
 from json import load, dump, JSONDecodeError
 
 
