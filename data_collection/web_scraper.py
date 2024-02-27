@@ -9,14 +9,14 @@ __license__ = "MIT"
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import time
+from time import sleep
 
 
 def web_scraper(url):
     # Simulate chrome site with url, wait for it to load, and grab the html source code
     driver = webdriver.Chrome()
     driver.get(url)
-    time.sleep(1)
+    sleep(1)
     html = driver.page_source
     driver.close()
 

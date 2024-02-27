@@ -8,10 +8,10 @@ __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
 import csv
+from csv import reader
 from web_scraper import web_scraper
 from time import time
 from itertools import islice
-
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
 
     # Print all modified legislation links
     # Run web_scraper script in all legislation links
-    for row in reader:
+    for row in rows:
         print(row[1] + "/text?format=txt")
         web_scraper(row[1] + "/text?format=txt")
 
@@ -29,11 +29,22 @@ def main():
     file.close()
 
 
+from firebase_admin import *
+
+
+def testing_database():
+    cred = credentials.Certificate("data_collection/firebase_credentials.json")
+    initialize_app(
+        cred,
+        {"databaseURL": "https://nlp-gun-legislation-default-rtdb.firebaseio.com/"},
+    )
+
 
 if __name__ == "__main__":
     # Run function and see how long it takes
     start_time = time()
-    main()
+    # main()
+    testing_database
     end_time = time()
     execution_time = end_time - start_time
     print(execution_time)
