@@ -7,6 +7,7 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
@@ -16,20 +17,22 @@ def web_scraper(url):
     # Modify url to access text page
     url += "/text?format=txt"
 
-    # Simulate chrome site with url, wait for it to load, and grab the html source code
+    # Simulate Chrome browser to retrieve HTML source code
     driver = webdriver.Chrome()
     driver.get(url)
-    sleep(1)
+    sleep(1)  # Wait for the page to load
     html = driver.page_source
     driver.close()
 
-    # Parse the html code, find relevant <pre></pre> tag with string for legislation text, and split it into a list
+    # Parse HTML code to extract relevant legislation text
     doc = BeautifulSoup(html, "html.parser")
     tag = doc.pre
     text = tag.string
+
+    # Split the text into a list of words
     text_list = text.split()
 
-    # Find the second line break and remove useless information before it (header and signatories)
+    # Find and remove header and signatories information before the legislation text
     count = 0
     occurrence = 2
     index = 0
@@ -41,8 +44,8 @@ def web_scraper(url):
             count += 1
             if count == occurrence:
                 index = i
-    del text_list[: index + 1]
-    del text_list[-1]
+    del text_list[: index + 1]  # Remove header
+    del text_list[-1]  # Remove trailing information
 
     # Join the modified list into a string and return
     text_join = " ".join(text_list)
