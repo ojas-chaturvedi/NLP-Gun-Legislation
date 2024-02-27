@@ -11,6 +11,7 @@ from csv import reader
 from web_scraper import web_scraper
 from time import time
 from itertools import islice
+from json import load, dump, JSONDecodeError
 
 
 def main():
@@ -28,6 +29,32 @@ def main():
     file.close()
 
 
+def save_data(type, name, url, text):
+    # Construct data object
+    data = {
+        "name": name,
+        "url": url,
+        "text": text,
+    }
+
+    # Load existing data from file
+    try:
+        with open("data_collection/data.json", "r") as file:
+            try:
+                existing_data = load(file)
+            except JSONDecodeError:
+                existing_data = {}
+    except FileNotFoundError:
+        existing_data = {}
+
+    # Append new data under the bill type
+    if type not in existing_data:
+        existing_data[type] = []
+    existing_data[type].append(data)
+
+    # Write back to file
+    with open("data_collection/data.json", "w") as file:
+        dump(existing_data, file, indent=4)
 
 
 def get_legislation_type(name):
