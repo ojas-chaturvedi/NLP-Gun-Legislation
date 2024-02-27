@@ -47,6 +47,13 @@ def web_scraper(url):
     del text_list[: index + 1]  # Remove header
     del text_list[-1]  # Remove trailing information
 
+    # Remove starting word(s) that describe the type of legislation
+    # Check if the first few words indicate a type of legislation and remove them accordingly
+    start_words = ["A BILL", "RESOLUTION", "JOINT RESOLUTION", "CONCURRENT RESOLUTION"]
+    for start_word in start_words:
+        if text_list[: len(start_word.split())] == start_word.split():
+            del text_list[: len(start_word.split())]
+
     # Join the modified list into a string and return
     modified_text = " ".join(text_list)
     return modified_text
