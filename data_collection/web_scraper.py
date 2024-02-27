@@ -48,8 +48,8 @@ def web_scraper(url):
     del text_list[-1]  # Remove trailing information
 
     # Join the modified list into a string and return
-    text_join = " ".join(text_list)
-    return text_join
+    modified_text = " ".join(text_list)
+    return modified_text
 
 
 if __name__ == "__main__":
