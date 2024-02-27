@@ -10,16 +10,14 @@ __license__ = "MIT"
 import csv
 from web_scraper import web_scraper
 from time import time
+from itertools import islice
+
 
 
 def main():
-    # Open and read csv file
-    file = open("URL_links.csv")
-    reader = csv.reader(file)
-
-    # Skip the first 6 rows with useless download information
-    for i in range(6):
-        next(reader)
+    # Open and read csv file, while skipping the first 6 rows with useless bulk download information
+    file = open("data_collection/URL_links.csv")
+    reader = csv.reader(islice(file, 6, None))
 
     # Append all legislation-info rows to list
     rows = []
