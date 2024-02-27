@@ -44,9 +44,9 @@ def web_scraper(url):
     del text_list[: index + 1]
     del text_list[-1]
 
-    # Join the modified list into a string and print
+    # Join the modified list into a string and return
     text_join = " ".join(text_list)
-    print(text_join)
+    return text_join
 
 
 if __name__ == "__main__":
