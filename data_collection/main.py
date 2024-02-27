@@ -1,6 +1,6 @@
 #!/opt/homebrew/bin/python3
 """
-File name / purpose
+Main file for data collection script
 """
 
 __author__ = "Ojas Chaturvedi"
