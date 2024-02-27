@@ -13,6 +13,9 @@ from time import sleep
 
 
 def web_scraper(url):
+    # Modify url to access text page
+    url += "/text?format=txt"
+
     # Simulate chrome site with url, wait for it to load, and grab the html source code
     driver = webdriver.Chrome()
     driver.get(url)
@@ -49,5 +52,5 @@ def web_scraper(url):
 if __name__ == "__main__":
     # Test url
     web_scraper(
-        "https://www.congress.gov/bill/117th-congress/house-resolution/437/text?format=txt"
+        "https://www.congress.gov/bill/117th-congress/house-resolution/437",
     )
