@@ -9,11 +9,13 @@ __license__ = "MIT"
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import time
 
 
 def web_scraper(url):
     driver = webdriver.Chrome()
     driver.get(url)
+    time.sleep(1)
     html = driver.page_source
     driver.close()
 
