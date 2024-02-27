@@ -7,8 +7,9 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
-from csv import reader
+
 from web_scraper import web_scraper
+from csv import reader
 from time import time
 from itertools import islice
 from json import load, dump, JSONDecodeError
