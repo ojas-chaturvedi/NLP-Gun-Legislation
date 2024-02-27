@@ -32,24 +32,27 @@ def main():
 
 def get_legislation_type(name):
     # Types of legislation
-    legislation_types = [
-        ["H.R.", "House Bill"],
-        ["H.Res.", "House Resolution"],
-        ["H.J.Res.", "House Joint Resolution"],
-        ["H.Con.Res.", "House Concurrent Resolution"],
-        ["S.", "Senate Bill"],
-        ["S.Res.", "Senate Resolution"],
-        ["S.J.Res.", "Senate Joint Resolution"],
-        ["S.Con.Res.", "Senate Concurrent Resolution"],
-    ]
+    legislation_types = {
+        "H.R.": "House Bill",
+        "H.Res.": "House Resolution",
+        "H.J.Res.": "House Joint Resolution",
+        "H.Con.Res.": "House Concurrent Resolution",
+        "S.": "Senate Bill",
+        "S.Res.": "Senate Resolution",
+        "S.J.Res.": "Senate Joint Resolution",
+        "S.Con.Res.": "Senate Concurrent Resolution",
+    }
 
-    # Split name into legislation type and number
-    type = (name.split())[0]
+    # Split name into legislation abbreviation and number
+    abbreviation = (name.split())[0]
 
-    # Return legislation name based off acronym
-    for types in legislation_types:
-        if type == types[0]:
-            return types[1]
+    # Look up the full name based on the abbreviation
+    full_name = legislation_types.get(abbreviation)
+    if full_name is not None:
+        return full_name
+    else:
+        # Handle case where abbreviation is not found
+        return "Unknown Type"
 
 
 if __name__ == "__main__":
