@@ -17,7 +17,7 @@ from json import load, dump, JSONDecodeError
 
 def main():
     # Open and read CSV file, skipping the first 6 rows with bulk download information
-    with open("data_collection/testing_links.csv") as file:
+    with open("data_collection/URL_links.csv") as file:
         rows = reader(islice(file, 6, None))
 
         # Process each row in the CSV file
