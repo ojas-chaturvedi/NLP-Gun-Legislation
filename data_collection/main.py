@@ -23,8 +23,11 @@ def main():
     # Print all modified legislation links
     # Run web_scraper script in all legislation links
     for row in rows:
-        print(row[1] + "/text?format=txt")
-        web_scraper(row[1] + "/text?format=txt")
+        name = row[0]
+        url = row[1]
+        type = get_legislation_type(name)
+        text = web_scraper(url)
+        save_data(type, name, url, text)
 
     # Close file to be more memory-efficient
     file.close()
