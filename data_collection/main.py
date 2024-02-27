@@ -55,8 +55,9 @@ def get_legislation_type(name):
 if __name__ == "__main__":
     # Run function and see how long it takes
     start_time = time()
-    # main()
-    testing_database
+
+    main()
+
     end_time = time()
     execution_time = end_time - start_time
     print(execution_time)
