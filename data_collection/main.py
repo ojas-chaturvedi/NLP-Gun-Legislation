@@ -15,9 +15,9 @@ from time import time
 from json import load, dump, JSONDecodeError
 
 
-def main():
+def main(csv_file_path):
     # Open and read CSV file, skipping the first 6 rows with bulk download information
-    with open("data_collection/URL_links.csv") as file:
+    with open(csv_file_path) as file:
         rows = reader(islice(file, 6, None))
 
         # Process each row in the CSV file
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     # Run function and see how long it takes
     start_time = time()
 
-    main()
+    main("data_collection/URL_links.csv")
 
     end_time = time()
     execution_time = end_time - start_time
