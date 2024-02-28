@@ -145,15 +145,18 @@ def find_duplicate_titles(csv_file_path):
     # Return duplicate titles along with their legislation numbers
     return {title: title_legislation_map[title] for title in duplicate_titles}
 
+
 if __name__ == "__main__":
     # Run function and see how long it takes
     start_time = time()
 
-    main("data_collection/URL_links.csv")
-
     duplicate_titles_map = find_duplicate_titles("data_collection/URL_links.csv")
     for title, legislation_numbers in duplicate_titles_map.items():
-        print(f"Title '{title}' is duplicated with legislation numbers: {legislation_numbers}")
+        print(
+            f"Title '{title}' is duplicated with legislation numbers: {legislation_numbers}"
+        )
+
+    main("data_collection/URL_links.csv")
 
     end_time = time()
     execution_time = end_time - start_time
