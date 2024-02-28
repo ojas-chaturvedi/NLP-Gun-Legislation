@@ -24,24 +24,31 @@ def main():
         for row in rows:
             name = row[0]
             url = row[1]
+            session = row[2]
+            title = row[3]
 
             # Determine the type of legislation based on its name abbreviation
             legislation_type = get_legislation_type(name)
 
+            # Clean session text to just include number of session and not years /
+            session = clean_session_text(session)
+
             # Scrape the web content from the URL
             text = web_scraper(url)
 
-            save_data(legislation_type, name, url, text)
+            save_data(legislation_type, name, url, session, title, text)
 
     # Close file to be more memory-efficient
     file.close()
 
 
-def save_data(type, name, url, text):
+def save_data(type, name, url, session, title, text):
     # Construct data object
     data = {
         "name": name,
         "url": url,
+        "session": session,
+        "title": title,
         "text": text,
     }
 
@@ -88,6 +95,21 @@ def get_legislation_type(name):
     else:
         # Handle case where abbreviation is not found
         return "Unknown Type"
+
+
+def clean_session_text(session):
+    # Split the session by word
+    session_parts = session.split()
+
+    # Extract the session number with suffix
+    session_number_with_suffix = session_parts[0]
+
+    # Remove the suffix by slicing the string
+    session_number_without_suffix = session_number_with_suffix[:3]
+
+    print(session_number_without_suffix)
+
+    return session_number_without_suffix
 
 
 if __name__ == "__main__":
