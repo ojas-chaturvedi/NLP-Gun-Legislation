@@ -1,12 +1,12 @@
 #!/opt/homebrew/bin/python3
 """
-Web Scraper to receive legislation from Congress.gov
+Name: data_collection/web_scraper.py
+Purpose: To scrape the Congress.gov website to receive legislation data
 """
 
 __author__ = "Ojas Chaturvedi"
 __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
-
 
 from selenium import webdriver
 from bs4 import BeautifulSoup

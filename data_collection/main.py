@@ -1,12 +1,12 @@
 #!/opt/homebrew/bin/python3
 """
-Main file for data collection script
+Name: data_collection/main.py
+Purpose: To collect the data for the sentiment analysis models
 """
 
 __author__ = "Ojas Chaturvedi"
 __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
-
 
 from web_scraper import web_scraper
 from csv import reader
