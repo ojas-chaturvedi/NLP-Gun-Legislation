@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 
-def web_scraper(url):
+def web_scraper(url: str) -> str:
     # Modify url to access text page
     url += "/text?format=txt"
 

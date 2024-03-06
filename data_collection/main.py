@@ -15,7 +15,7 @@ from time import time
 from json import load, dump, JSONDecodeError
 
 
-def main(csv_file_path):
+def main(csv_file_path: str) -> None:
     # Open and read CSV file, skipping the first 6 rows with bulk download information
     with open(csv_file_path) as file:
         rows = reader(islice(file, 6, None))
@@ -42,7 +42,7 @@ def main(csv_file_path):
     file.close()
 
 
-def save_data(type, name, url, session, title, text):
+def save_data(type: str, name: str, url: str, session: str, title: str, text: str) -> None:
     # Construct data object
     data = {
         "name": name,
@@ -72,7 +72,7 @@ def save_data(type, name, url, session, title, text):
         dump(existing_data, file, indent=4)
 
 
-def get_legislation_type(name):
+def get_legislation_type(name: str) -> str:
     # Types of legislation
     legislation_types = {
         "H.R.": "House Bill",
@@ -97,7 +97,7 @@ def get_legislation_type(name):
         return "Unknown Type"
 
 
-def clean_session_text(session):
+def clean_session_text(session: str) -> str:
     # Split the session by word
     session_parts = session.split()
 
@@ -112,7 +112,7 @@ def clean_session_text(session):
     return session_number_without_suffix
 
 
-def find_duplicate_titles(csv_file_path):
+def find_duplicate_titles(csv_file_path: str) -> map:
     # Dictionary to store titles and their corresponding legislation numbers
     title_legislation_map = {}
 
