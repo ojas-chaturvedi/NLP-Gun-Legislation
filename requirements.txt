@@ -1,0 +1,6 @@
+# python==3.12
+pip==24.0
+selenium==4.18.1
+bs4==0.0.2
+python-dotenv==1.0.1
+openai==1.13.3
