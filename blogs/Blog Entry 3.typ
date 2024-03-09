@@ -21,7 +21,7 @@ While awaiting the completion of my data collection step, I've started revising 
 In my internship role at the ASU Data Mining and Reinforcement Learning (RL) Lab, I started in the initial stages of developing the testing environment and RL agent. Collaborating with PH.D. student Longchao Da, we've leveraged OpenAI's gym toolkit, tailored for developing and comparing reinforcement learning algorithms. Utilizing pre-existing environments available online, we've established a foundational setup, as depicted in the accompanying image to construct and evaluate a new RL agent. The yellow circle represents the RL agent, while the green box signifies the desired endpoint, aimed to be reached via the most optimized route. However, given the project's emphasis on constraints within RL agents, additional elements such as gray boxes, impassable obstacles, and red boxes, serving as deterrents with negative rewards, have been introduced. Upon finishing the environment, my focus shifted toward implementing a Deep Q-network (DQN) to train a policy guiding the RL agent through the environment efficiently. DQN, a neural network architecture combining deep learning principles with Q-learning, a classic reinforcement learning algorithm, demonstrates particular efficacy in handling high-dimensional state spaces, such as those found in numerous real-world scenarios.
 
 #figure(
-  image("./assets/3-environment.png"),
+  image("./assets/3_environment.png"),
   caption: [
     Simple environment to test basic RL agent
   ],
