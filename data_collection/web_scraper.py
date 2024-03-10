@@ -9,6 +9,9 @@ __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from time import sleep
 
@@ -20,7 +23,12 @@ def web_scraper(url: str) -> str:
     # Simulate Chrome browser to retrieve HTML source code
     driver = webdriver.Chrome()
     driver.get(url)
-    sleep(1)  # Wait for the page to load
+
+    # Explicitly wait for the <pre> tag to be available
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.TAG_NAME, "pre"))
+    )
+
     html = driver.page_source
     driver.close()
 
@@ -61,23 +69,13 @@ def web_scraper(url: str) -> str:
 
 if __name__ == "__main__":
     # Test URLs
-    print(
-        web_scraper(
-            "https://www.congress.gov/bill/117th-congress/house-bill/7544",
-        )
-    )
-    print(
-        web_scraper(
-            "https://www.congress.gov/bill/117th-congress/house-resolution/437",
-        )
-    )
-    print(
-        web_scraper(
-            "https://www.congress.gov/bill/117th-congress/senate-joint-resolution/49",
-        )
-    )
-    print(
-        web_scraper(
-            "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/46",
-        )
-    )
+    # Test URLs
+    urls = [
+        "https://www.congress.gov/bill/117th-congress/house-bill/7544",
+        "https://www.congress.gov/bill/117th-congress/house-resolution/437",
+        "https://www.congress.gov/bill/117th-congress/senate-joint-resolution/49",
+        "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/46",
+    ]
+
+    for url in urls:
+        print(web_scraper(url))
