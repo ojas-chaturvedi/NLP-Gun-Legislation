@@ -1,7 +1,13 @@
 # Sentiment Classification of News Text Data Using Intelligent Model
+
 ## Citation
-S. Zhang, “Sentiment Classification of News Text Data Using Intelligent Model,” *Frontiers in Psychology*, vol. 12, Sep. 2021. DOI: 10.3389/fpsyg.2021.758967.
+
+S. Zhang, “Sentiment Classification of News Text Data Using Intelligent Model,” _Frontiers in Psychology_, vol. 12, Sep. 2021. DOI: 10.3389/fpsyg.2021.758967.
+
 ## Summary
+
 This academic paper focuses on the sentiment classification of news text data, emphasizing the importance of understanding context in NLP. It shows how sentiment classification algorithms are domain-dependent, with the same phrase conveying different sentiments in varied contexts. It also introduces a transfer learning discriminative dictionary learning algorithm (TLDDL) for cross-domain text sentiment classification. This approach addresses the challenges of insufficient labeled training data and domain adaptation in sentiment classifiers. The study’s experiments on public text datasets demonstrate the effectiveness of the TLDDL in improving sentiment classification performance in various domains.
+
 ## Relevance
+
 This paper is relevant to my project because the discussion on domain-dependent sentiment classification and the use of transfer learning techniques like TLDDL offers valuable perspectives for analyzing sentiment in legal texts. The methodology and findings can help guide me in the development or selection of NLP tools for accurately interpreting sentiment in federal gun control cases. Understanding the nuances of context-dependent sentiment and leveraging advanced techniques like TLDDL will be instrumental in achieving precise and reliable sentiment analysis results in my research project.
