@@ -26,28 +26,41 @@ def main(csv_file_path: str) -> None:
             url = row[1]
             session = row[2]
             title = row[3]
+            party = row[4]
+            date = row[5]
 
             # Determine the type of legislation based on its name abbreviation
             legislation_type = get_legislation_type(name)
 
-            # Clean session text to just include number of session and not years /
+            # Clean session text to just include number of session and not years
             session = clean_session_text(session)
 
             # Scrape the web content from the URL
             text = web_scraper(url)
 
-            save_data(legislation_type, name, url, session, title, text)
+            save_data(party, name, url, legislation_type, session, date, title, text)
 
     # Close file to be more memory-efficient
     file.close()
 
 
-def save_data(type: str, name: str, url: str, session: str, title: str, text: str) -> None:
+def save_data(
+    party: str,
+    name: str,
+    url: str,
+    type: str,
+    session: str,
+    date: str,
+    title: str,
+    text: str,
+) -> None:
     # Construct data object
     data = {
         "name": name,
         "url": url,
+        "bill_type": type,
         "session": session,
+        "date_introduced": date,
         "title": title,
         "text": text,
     }
@@ -62,10 +75,10 @@ def save_data(type: str, name: str, url: str, session: str, title: str, text: st
     except FileNotFoundError:
         existing_data = {}
 
-    # Append new data under the bill type
-    if type not in existing_data:
-        existing_data[type] = []
-    existing_data[type].append(data)
+    # Append new data under the bill party sponsor
+    if party not in existing_data:
+        existing_data[party] = []
+    existing_data[party].append(data)
 
     # Write back to file
     with open("data_collection/data.json", "w") as file:
@@ -106,8 +119,6 @@ def clean_session_text(session: str) -> str:
 
     # Remove the suffix by slicing the string
     session_number_without_suffix = session_number_with_suffix[:3]
-
-    print(session_number_without_suffix)
 
     return session_number_without_suffix
 
