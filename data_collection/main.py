@@ -9,16 +9,21 @@ __github__ = "ojas-chaturvedi"
 __license__ = "MIT"
 
 from web_scraper import web_scraper
+
 from csv import reader
 from itertools import islice
-from time import time
 from json import load, dump, JSONDecodeError
+from time import time
+from subprocess import run
 
 
 def main(csv_file_path: str) -> None:
     # Open and read CSV file, skipping the first 6 rows with bulk download information
     with open(csv_file_path) as file:
         rows = reader(islice(file, 6, None))
+
+        # Initialize a variable to keep track of the previous session string.
+        previous_session = None
 
         # Process each row in the CSV file
         for row in rows:
@@ -34,6 +39,11 @@ def main(csv_file_path: str) -> None:
 
             # Clean session text to just include number of session and not years
             session = clean_session_text(session)
+
+            # If there is a new session for legislation, send a notification to phone
+            if session != previous_session:
+                send_notification(session)
+                previous_session = session
 
             # Scrape the web content from the URL
             text = web_scraper(url)
@@ -155,6 +165,19 @@ def find_duplicate_titles(csv_file_path: str) -> map:
 
     # Return duplicate titles along with their legislation numbers
     return {title: title_legislation_map[title] for title in duplicate_titles}
+
+
+# Note: this function utilizes the ntfy package, which can be downloaded here: https://ntfy.sh/
+def send_notification(session: str) -> None:
+    run(
+        [
+            "ntfy",
+            "publish",
+            "nlp-firearm-legislation",
+            "Running session number:",
+            session,
+        ]
+    )
 
 
 if __name__ == "__main__":
