@@ -206,3 +206,18 @@
       - #link(
           "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture16_postclass.pdf",
         )[Lecture 16 -- Monte Carlo Tree Search]
+- DQN for CliffWalk environment -- \_\_ hours
+  - Covered example of DQN in PyTorch as an example before implementation in the
+    CliffWalk environment
+    - Resource: #link(
+        "https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html",
+      )[Reinforcement Learning (DQN) Tutorial]
+  - Worked on implementing DQN in the CliffWalk environment
+  - Learned how to use TensorBoard to graph the reward of the agent from every round
+    to ensure the reward is improving
+    - Resource: #link(
+        "https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html",
+      )[How to use TensorBoard with PyTorch]
+  - After creating the DQN, the model was saved as learned_10000episode.pth
+  - Created a script to load the saved model and implement it in the CliffWalk
+    environment to ensure the optimal path is being taken by the RL agent
