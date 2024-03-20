@@ -60,3 +60,46 @@
 #pagebreak()
 
 == Personal Work
+- Reviewed paper -- 14 hours
+  - Paper name: #link(
+      "https://proceedings.neurips.cc/paper/2021/file/72f67e70f6b7cdc4cc893edaddf0c4c6-Paper.pdf
+                              ",
+    )[Safe Reinforcement Learning with Natural Language Constraints]
+  - Went through original paper working to solve the issue of adding natural
+    language constraints to RL models
+  - Notes:
+    - Analogy of constraints: A cleaning robot must be careful to not knock the
+      television over, even if the television lies on the optimal path to cleaning the
+      house
+    - Two key limitations of Safe RL algorithms:
+      - Provide constraints in mathematical or logical forms, which calls for specific
+        domain expertise
+      - Policies trained with a specific set of constraints cannot be transferred easily
+        to learn new tasks with the same set of constraints
+    - Figure 1
+      - Safety training -- agent learns to interpret textual constraints while learning
+        the task
+      - Safety evaluation -- agent learns to interpret textual constraints while
+        learning the task
+    - Types of constraints:
+      - Budgetary constraints -- limit the frequency of being in unsafe states
+      - Relational constraints -- specify unsafe states in relation to surrounding
+        entities
+      - Sequential constraints -- activate certain states to be unsafe based on past
+        events
+    - Why not instructions?
+      - Instead of instructions, which specify what to do, textual constraints only
+        inform the agents on what _not to do_, independent of maximizing rewards
+        - To obtain rewards, the agent has to explore and figure out optimal policies on
+          its own
+      - Constraints are decoupled from rewards and policies, so agents trained to
+        understand certain constraints can transfer their understanding to respect these
+        constraints in new tasks, even when the new optimal policy is drastically
+        different
+    - Methodology -- POLCO (Policy Optimization with Language Constraints)
+      - Constraint interpreter to encode language constraints into the representation of
+        forbidden states
+      - Policy network operates on these representations and state observations to
+        produce actions
+      - Factorizing the model in this manner allows the agent to retain its constraint
+        comprehension capabilities while modifying its policy network to learn new tasks
