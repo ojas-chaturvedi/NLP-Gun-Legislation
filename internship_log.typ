@@ -29,7 +29,16 @@
     - LLM uses knowledge about agents using bibliographies and the environment using
       APIs to develop AI agents that can sense, think, and act as humans in the real
       world
-  -
+  - Paper name: #link(
+      "https://arxiv.org/abs/2401.04343",
+    )[Private Fine-tuning of Large Language Models with Zeroth-order Optimization]
+    \
+    Paper name: #link(
+      "https://openreview.net/pdf?id=nATTIkte9f",
+    )[LMO-DP: Accurately Fine-Tuning Language Models with Stronger Differential
+      Privacy]
+    - Introduces a better alternative to DP-SGD for differential privacy in LLMs
+      without major memory and performance loss
 
 == Project Meetings -- 5 hours
 - February 14th
@@ -190,7 +199,7 @@
         )[Lecture 13 -- Fast Reinforcement Learning]
       - #link(
           "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes14.pdf",
-        )[Lecture 14 -- Model Based RL, Monte-Carlo Tree Search]
+        )[Lecture 14 -- Model-Based RL, Monte-Carlo Tree Search]
       - #link(
           "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture15_postclass.pdf",
         )[Lecture 15 -- Batch RL]
