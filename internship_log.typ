@@ -44,9 +44,11 @@
     environment to navigate to the goal
 - March 6th
   - Went over code for DQN and explained the functionality
-  - Task: Finish the DQN, save the trained model in a .pth file, and implement it back into the GridWorld environment to ensure the optimal path is being taken
+  - Task: Finish the DQN, save the trained model in a .pth file, and implement it
+    back into the GridWorld environment to ensure the optimal path is being taken
 - March 13th
-  - Go over the literature review of the RL constraints field and understand how other environments use constraints
+  - Go over the literature review of the RL constraints field and understand how
+    other environments use constraints
   - Task: Start implementing the second environment for testing
 - March 20th
 - March 27th
