@@ -5,6 +5,7 @@
 #show par: set block(spacing: 0.55em)
 #show heading: set block(above: 1.4em, below: 1em)
 #show link: underline
+#show link: set text(blue)
 
 = Internship Log
 
