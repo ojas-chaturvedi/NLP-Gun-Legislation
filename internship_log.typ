@@ -102,3 +102,98 @@
         produce actions
       - Factorizing the model in this manner allows the agent to retain its constraint
         comprehension capabilities while modifying its policy network to learn new tasks
+- Researched RL benchmarking tools -- \_\_ hours
+  - OpenAI Gym with PyTorch
+    - Library: PyTorch
+    - Applications: General reinforcement learning research and experimentation
+  - Stable Baselines with PyBullet
+    - Library: PyBullet
+    - Applications: Training reinforcement learning agents in simulated environments
+      with physics simulations
+  - PySC2
+    - Library: PySC2 (StarCraft II library)
+    - Applications: Reinforcement learning research and experimentation in StarCraft
+      II environments
+  - Habitat
+    - Library: PyTorch
+    - Applications: Embodied AI research, exploration, and navigation tasks
+  - AI Gym
+    - Library: PyTorch
+    - Applications: Reinforcement learning research and education, customized
+      environments
+  - AllenAct
+    - Library: PyTorch
+    - Applications: Research in embodied AI, supports various tasks and environments
+  - Meta-World
+    - Library: PyTorch
+    - Applications: Benchmarking meta-reinforcement learning and multi-task learning
+      algorithms
+  - DeepMind Control Suite
+    - Library: PyTorch
+    - Applications: Continuous control tasks for deep reinforcement learning research
+  - PyBullet
+    - Library: PyTorch
+    - Applications: Physics simulation for robotic tasks and reinforcement learning
+      experiments
+  - OpenAI Baselines
+    - Library: PyTorch
+    - Applications: Collection of implementations of reinforcement learning algorithms
+  - R2D2 (Recurrent Experience Replay in Distributed Reinforcement Learning)
+    - Library: PyTorch
+    - Applications: Deep reinforcement learning with recurrent neural networks,
+      distributed training
+- Learning Reinforcement Learning -- 19 hours
+  - Youtube Playlist: #link(
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u",
+    )[Stanford CS234: Reinforcement Learning | Winter 2019]
+    \
+    Accompanying Information: #link(
+      "https://web.stanford.edu/class/cs234/CS234Win2019/schedule.html",
+    )[Slides & Lecture Notes]
+    - Lecture Notes:
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes_intro.pdf",
+        )[Lecture 1 -- Introduction to Reinforcement Learning]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes2.pdf",
+        )[Lecture 2 -- Making Good Decisions Given a Model of the World]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes3.pdf",
+        )[Lecture 3 -- Model Free Policy Evaluation: Policy Evaluation Without Knowing How
+          the World Works]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes4.pdf",
+        )[Lecture 4 -- Model Free Control]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes5.pdf",
+        )[Lecture 5 -- Value Function Approximation]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes6.pdf",
+        )[Lecture 6 -- CNNs and Deep Q Learning]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes7.pdf",
+        )[Lecture 7 -- Imitation Learning]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes8.pdf",
+        )[Lectures 8 & 9 -- Policy Gradient]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes9.pdf",
+        )[Lecture 9 -- Advanced Policy Gradient]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture10_1.pdf",
+        )[Lecture 10 -- Policy Gradient III]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes11.pdf",
+        )[Lectures 11 & 12 -- Exploration and Exploitation]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture13_postclass.pdf",
+        )[Lecture 13 -- Fast Reinforcement Learning]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lnotes14.pdf",
+        )[Lecture 14 -- Model Based RL, Monte-Carlo Tree Search]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture15_postclass.pdf",
+        )[Lecture 15 -- Batch RL]
+      - #link(
+          "https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture16_postclass.pdf",
+        )[Lecture 16 -- Monte Carlo Tree Search]
