@@ -155,4 +155,4 @@ Week 12: Final product should be completed.
   - Start and finish bibliography section
   - Finalize presentation and slides
   - Submit paper
-*Final presentations given on Saturday, May 4, 2023.*
+*Final presentations given on Saturday, May 4, 2024.*
