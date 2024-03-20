@@ -35,17 +35,17 @@
 - February 14th
   - Went over the basis paper and reviewed the test environments
   - Discussed why the paper was rejected
-  - Task: Look into environments that utilize PyTorch instead of Tensorflow
+  - Task: Look into benchmarking tools that utilize PyTorch instead of Tensorflow
 - February 28th
   - Quickly went over a list of possible reinforcement learning environments
   - Brainstormed ideas for tasks and environments
   - Received access to a previously built environment but with no RL model
-  - Task: Work on a simple DQN to train a policy that can use the GridWorld
+  - Task: Work on a simple DQN to train a policy that can use the CliffWalk
     environment to navigate to the goal
 - March 6th
   - Went over code for DQN and explained the functionality
   - Task: Finish the DQN, save the trained model in a .pth file, and implement it
-    back into the GridWorld environment to ensure the optimal path is being taken
+    back into the CliffWalk environment to ensure the optimal path is being taken
 - March 13th
   - Go over the literature review of the RL constraints field and understand how
     other environments use constraints
