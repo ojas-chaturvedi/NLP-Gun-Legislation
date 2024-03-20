@@ -62,8 +62,7 @@
 == Personal Work
 - Reviewed paper -- 14 hours
   - Paper name: #link(
-      "https://proceedings.neurips.cc/paper/2021/file/72f67e70f6b7cdc4cc893edaddf0c4c6-Paper.pdf
-                              ",
+      "https://proceedings.neurips.cc/paper/2021/file/72f67e70f6b7cdc4cc893edaddf0c4c6-Paper.pdf",
     )[Safe Reinforcement Learning with Natural Language Constraints]
   - Went through original paper working to solve the issue of adding natural
     language constraints to RL models
