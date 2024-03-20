@@ -8,3 +8,25 @@
 
 = Internship Log
 
+== Weekly Meetings -- 22 hours
+- February 8th
+- February 15th
+- February 29th
+- March 7th
+- March 14th
+- March 21st
+- March 28th
+- April 4th
+- April 11th
+- April 18th
+- April 25th
+\
+- General Notes I found useful:
+  - Paper name: #link(
+      "https://arxiv.org/abs/2402.03310",
+    )[V-IRL: Grounding Virtual Intelligence in Real Life]
+    - LLM uses knowledge about agents using bibliographies and the environment using
+      APIs to develop AI agents that can sense, think, and act as humans in the real
+      world
+  -
+
