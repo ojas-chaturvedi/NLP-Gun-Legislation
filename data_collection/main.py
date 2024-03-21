@@ -77,7 +77,7 @@ def save_data(
 
     # Load existing data from file
     try:
-        with open(f"data_collection/{session}.json", "r") as file:
+        with open(f"data_collection/data/{session}.json", "r") as file:
             try:
                 existing_data = load(file)
             except JSONDecodeError:
@@ -91,7 +91,7 @@ def save_data(
     existing_data[party].append(data)
 
     # Write back to file
-    with open(f"data_collection/{session}.json", "w") as file:
+    with open(f"data_collection/data/{session}.json", "w") as file:
         dump(existing_data, file, indent=4)
 
 
