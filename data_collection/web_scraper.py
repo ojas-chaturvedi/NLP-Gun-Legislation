@@ -12,6 +12,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
 from time import sleep
 
@@ -24,10 +25,13 @@ def web_scraper(url: str) -> str:
     driver = webdriver.Chrome()
     driver.get(url)
 
-    # Explicitly wait for the <pre> tag to be available
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.TAG_NAME, "pre"))
-    )
+    # Explicitly wait for the <pre> tag to be available, otherwise return error as text
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.TAG_NAME, "pre"))
+        )
+    except TimeoutException:
+        return "ERROR: TXT file does not exist; Check link manually."
 
     html = driver.page_source
     driver.close()
@@ -69,10 +73,10 @@ def web_scraper(url: str) -> str:
 
 if __name__ == "__main__":
     # Test URLs
-    # Test URLs
     urls = [
         "https://www.congress.gov/bill/117th-congress/house-bill/7544",
         "https://www.congress.gov/bill/117th-congress/house-resolution/437",
+        "https://www.congress.gov/bill/115th-congress/house-bill/3249",
         "https://www.congress.gov/bill/117th-congress/senate-joint-resolution/49",
         "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/46",
     ]
