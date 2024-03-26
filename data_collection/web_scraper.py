@@ -5,7 +5,7 @@ Purpose: To scrape the Congress.gov website to receive legislation data
 """
 
 __author__ = "Ojas Chaturvedi"
-__github__ = "ojas-chaturvedi"
+__github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
 from selenium import webdriver

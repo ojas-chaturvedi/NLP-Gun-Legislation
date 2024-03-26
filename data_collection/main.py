@@ -5,7 +5,7 @@ Purpose: To collect the data for the sentiment analysis models
 """
 
 __author__ = "Ojas Chaturvedi"
-__github__ = "ojas-chaturvedi"
+__github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
 from web_scraper import web_scraper

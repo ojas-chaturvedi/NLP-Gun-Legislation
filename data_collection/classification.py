@@ -5,7 +5,7 @@ Purpose: To classify each Congressional legislation as pro-gun rights or pro-gun
 """
 
 __author__ = "Ojas Chaturvedi"
-__github__ = "ojas-chaturvedi"
+__github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
 from os import getenv
