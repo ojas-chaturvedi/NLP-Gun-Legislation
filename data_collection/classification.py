@@ -13,10 +13,10 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 
-def main() -> None:
+def classification() -> None:
     load_dotenv()
     client = OpenAI()
 
 
 if __name__ == "__main__":
-    main()
+    classification()
