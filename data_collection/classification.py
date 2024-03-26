@@ -15,7 +15,10 @@ from openai import OpenAI
 
 def classification() -> None:
     load_dotenv()
-    client = OpenAI()
+    client = OpenAI(
+        organization=f'{getenv('OPENAI_ORG_KEY')}',
+    )
+
 
 
 if __name__ == "__main__":
