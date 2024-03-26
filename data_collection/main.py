@@ -9,6 +9,7 @@ __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
 from web_scraper import web_scraper
+from classification import classification
 
 from csv import reader
 from itertools import islice
@@ -49,9 +50,6 @@ def main(csv_file_path: str) -> None:
             text = web_scraper(url)
 
             save_data(party, name, url, legislation_type, session, date, title, text)
-
-    # Close file to be more memory-efficient
-    file.close()
 
 
 def save_data(
