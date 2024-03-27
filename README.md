@@ -2,19 +2,31 @@
 
 This project employs advanced multi-model sentiment analysis techniques to systematically dissect and understand the framing of gun control issues within U.S. Congressional legislation from 2001 to 2023. It aims to uncover the emotional and rhetorical strategies deployed in legislative discourse, offering insights into how these narratives influence public perception and policy-making in the realm of gun control.
 
+- [Legislative Narratives on Gun Control in the United States: A Multi-Model Sentiment Analysis Approach (2001-2023)](#legislative-narratives-on-gun-control-in-the-united-states-a-multi-model-sentiment-analysis-approach-2001-2023)
+    - [Project Setup](#project-setup)
+    - [Project Description](#project-description)
+    - [Weekly Blog Updates](#weekly-blog-updates)
+    - [Research Question](#research-question)
+    - [Background / Context](#background--context)
+      - [Rationale for Using Sentiment Analysis](#rationale-for-using-sentiment-analysis)
+    - [Important Definitions](#important-definitions)
+    - [Assumptions](#assumptions)
+    - [Significance / Importance of Study](#significance--importance-of-study)
+    - [Method of Inquiry](#method-of-inquiry)
+
 ### Project Setup
 
 1. Optional: Create a Python virtual environment
 2. Install all the Python requirements: `pip install -r requirements.txt`
 3. **CONTINUE HERE**
 
-**BASIS Advisor**: Travis May
-**Internship Location**: Arizona State University
-**Onsite Mentor**: Hua Wei, Ph.D.
-
 ### Project Description
 
 Have you ever wondered about the power of words in shaping public opinion on contentious issues like gun control? Perhaps you hadn't considered their impact at all. My project delves into the emotional and rhetorical dynamics of U.S. Congressional bills on gun issues, spanning from the 107th to the 117th sessions (2001-2023). We aim to strip back the layers of legislative language, uncovering how the debate on gun control and rights is framed and its potential sway over societal attitudes. At the ASU Data Mining and Reinforcement Learning Lab under the expert guidance of Professor Hua Wei, I work on projects that focus on sim-to-real transfer and human-AI collaboration, specifically in optimizing traffic signal control through advanced reinforcement learning techniques. This experience sharpens my ability to navigate complex data and apply machine learning models, skills I use to dissect and analyze the sentiment of legislative texts in my own project on Congressional gun legislation. As we dissect the emotional tones and persuasive strategies within these texts, we're doing more than scrutinizing laws; we're revealing the narratives that fuel national discourse and mold public perception. The ultimate goal? To offer a lens through which we can better understand the polarized landscape of gun legislation, providing insights that could reshape how policies are communicated and perceived. Join us in this exploration of linguistic power, where every word in a bill carries the weight of conviction and the potential to shift the tides of public opinion!
+
+**BASIS Advisor**: Travis May
+**Internship Location**: Arizona State University
+**Onsite Mentor**: Hua Wei, Ph.D.
 
 ### Weekly Blog Updates
 
