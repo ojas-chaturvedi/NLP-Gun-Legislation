@@ -1,6 +1,12 @@
-# Shooting Through the Text: Uncovering Sentiments in Congressional Gun Legislation
+# Legislative Narratives on Gun Control in the United States: A Multi-Model Sentiment Analysis Approach (2001-2023)
 
-An AP Research project that conducts a sentiment analysis on congressional legislation relating to the ongoing debate on gun control.
+This project employs advanced multi-model sentiment analysis techniques to systematically dissect and understand the framing of gun control issues within U.S. Congressional legislation from 2001 to 2023. It aims to uncover the emotional and rhetorical strategies deployed in legislative discourse, offering insights into how these narratives influence public perception and policy-making in the realm of gun control.
+
+### Project Setup
+
+1. Optional: Create a Python virtual environment
+2. Install all the Python requirements: `pip install -r requirements.txt`
+3. **CONTINUE HERE**
 
 **BASIS Advisor**: Travis May
 **Internship Location**: Arizona State University
