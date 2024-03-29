@@ -1,5 +1,5 @@
-#import "/typst-templates/general.typ": template, lref
-#show: template.with(
+#import "@local/typst-templates:0.1.0": general_template
+#show: general_template.with(
   title: "Sentiment Analysis Models -- Learning Python Libraries",
   prefix: [_AP Research & Senior Research Project_],
   authors: none,

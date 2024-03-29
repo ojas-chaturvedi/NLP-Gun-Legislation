@@ -1,5 +1,5 @@
-#import "/typst-templates/general.typ": template, lref
-#show: template.with(
+#import "@local/typst-templates:0.1.0": general_template
+#show: general_template.with(
   title: "Literature Review & Data Collection -- Legislation Duplicates",
   prefix: [_AP Research & Senior Research Project_],
   authors: none,
@@ -9,9 +9,9 @@
 
 This week, I successfully finalized my data collection script to gather congressional gun legislation texts. However, integrating this script with ASU's supercomputer Sol presented unexpected challenges. Connecting to the ASU VPN to access Sol encountered technical issues, prompting me to submit a support ticket to the ASU IT Department while awaiting a resolution to resume data collection. Below are the links for my data collection scripts:
 
-Overall script code: #link("https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/data_collection/main.py")[https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/data_collection/main.py]
+Overall script code: \ #link("https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/data_collection/main.py")[https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/data_collection/main.py]
 
-Web Scraper code: #link("https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/web-scraper.py")[https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/web-scraper.py]
+Web Scraper code: \ #link("https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/web-scraper.py")[https://github.com/ojas-chaturvedi/NLP-Gun-Legislation/blob/master/web-scraper.py]
 
 However, during further examination of the gathered data, I stumbled upon a significant issue: multiple versions of the same bill. Although this is a common occurrence due to legislation originating from various bodies like the Senate, House of Representatives, and joint/concurrent committees, it posed a problem as Congress.gov did not address this duplication during data retrieval. I cannot keep the duplicate legislation, as this would essentially be the same as the sentiment analysis models giving the same score twice even when there was only one bill with that score. Initially, I planned to remove duplicate legislation to avoid redundancy, therefore preventing repeated scores in sentiment analysis. However, I soon realized that these duplicates often differ due to committee amendments. Therefore, I need to devise a method to identify and retain only the latest version of each bill for accurate sentiment analysis.
 
