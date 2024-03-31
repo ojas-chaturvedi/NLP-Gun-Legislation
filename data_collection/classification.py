@@ -38,9 +38,21 @@ def classification(legislative_text: str) -> str:
         temperature=0.0, # Also try 0.7 and 2.0 and check for different results
         top_p=1
     )
+    # Check if the legislative text is too large before sending it to the API.
+    if calculate_tokens(legislative_text) > 40000:
+        return "large"
+
 
     return response.choices[0].message.content
+def calculate_tokens(text: str) -> int:
+    """
+    Get the number of tokens in the given text.
+    """
+    # encoding = get_encoding("cl100k_base")
+    encoding = encoding_for_model("gpt-3.5-turbo")
+    num_tokens = len(encoding.encode(text))
 
+    return num_tokens
 
 def testing_classifier() -> None:
     with open('data_collection/data/117.json', 'r') as f:
