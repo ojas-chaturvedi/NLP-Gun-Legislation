@@ -47,7 +47,6 @@ def classification(legislative_text: str) -> str:
             top_p=1
         )
 
-        tries = 0
         return response.choices[0].message.content
 
     except RateLimitError as e:
