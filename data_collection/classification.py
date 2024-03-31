@@ -4,6 +4,9 @@ Name: data_collection/classification.py
 Purpose: To classify each Congressional legislation as pro-gun rights or pro-gun control using the OpenAI ChatGPT LLM
 """
 
+# Save the OpenAI API and Organization keys manually
+# Organization key is optional
+
 __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
