@@ -13,8 +13,11 @@ __license__ = "MIT"
 
 from os import getenv
 from dotenv import load_dotenv
-from openai import OpenAI
 from json import load
+from openai import OpenAI, RateLimitError
+from time import time, sleep
+from tiktoken import encoding_for_model
+import re
 
 
 def classification(legislative_text: str) -> str:
@@ -47,6 +50,21 @@ def classification(legislative_text: str) -> str:
         tries = 0
         return response.choices[0].message.content
 
+    except RateLimitError as e:
+        print(f"An error occurred: {e}")
+        match = re.search(r'Please try again in (\d+m)?(\d+s)?', str(e))
+        print(match)
+        if match:
+            minutes = int(match.group(1)[:-1]) if match.group(1) else 0
+            seconds = int(match.group(2)[:-1]) if match.group(2) else 0
+            wait_time = minutes * 60 + seconds
+            print(f"Rate limit reached, waiting for {wait_time} seconds.")
+            sleep(wait_time)
+            return classification(legislative_text)  # Retry after waiting
+        else:
+            print("Unable to parse retry time. Waiting for 60 seconds.")
+            sleep(60)
+            return classification(legislative_text)  # Retry after default wait time
     except Exception as e:
         # Handle other exceptions that might occur
         print(f"An error occurred: {e}")
