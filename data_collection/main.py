@@ -53,12 +53,13 @@ def main(csv_file_path: str) -> None:
 
 
 def save_data(
-    party: str,
+    classification: str,
     name: str,
     url: str,
     type: str,
     session: str,
     date: str,
+    party: str,
     title: str,
     text: str,
 ) -> None:
@@ -69,6 +70,7 @@ def save_data(
         "bill_type": type,
         "session": session,
         "date_introduced": date,
+        "party_of_sponsors": party,
         "title": title,
         "text": text,
     }
@@ -83,10 +85,10 @@ def save_data(
     except FileNotFoundError:
         existing_data = {}
 
-    # Append new data under the bill party sponsor
-    if party not in existing_data:
-        existing_data[party] = []
-    existing_data[party].append(data)
+    # Append new data under the bill classification
+    if classification not in existing_data:
+        existing_data[classification] = []
+    existing_data[classification].append(data)
 
     # Write back to file
     with open(f"data_collection/data/{session}.json", "w") as file:
