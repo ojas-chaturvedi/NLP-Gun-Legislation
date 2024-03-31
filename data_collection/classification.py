@@ -23,25 +23,34 @@ def classification(legislative_text: str) -> str:
         organization=f'{getenv('OPENAI_ORG_KEY')}',
     )
 
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {
-                "role": "system",
-                "content": "You will be provided with a legislative text regarding firearms, and your task is to classify it as pro-control or pro-rights. Your response can be one of two things: 'control' or 'rights'."
-            },
-            {
-                "role": "user",
-                "content": f"{legislative_text}"
-            }
-        ],
-        temperature=0.0, # Also try 0.7 and 2.0 and check for different results
-        top_p=1
-    )
     # Check if the legislative text is too large before sending it to the API.
     if calculate_tokens(legislative_text) > 40000:
         return "large"
 
+    try:
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You will be provided with a legislative text regarding firearms, and your task is to classify it as pro-control or pro-rights. Your response can be one of two things: 'control' or 'rights'."
+                },
+                {
+                    "role": "user",
+                    "content": legislative_text
+                }
+            ],
+            temperature=0.0, # Also try 0.7 and 2.0 and check for different results
+            top_p=1
+        )
+
+        tries = 0
+        return response.choices[0].message.content
+
+    except Exception as e:
+        # Handle other exceptions that might occur
+        print(f"An error occurred: {e}")
+        return "An error occurred."
 
     return response.choices[0].message.content
 def calculate_tokens(text: str) -> int:
