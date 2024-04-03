@@ -68,7 +68,7 @@ project will be provided for reference.
 == Weekly Schedule:
 
 You must have reading assignments and tasks for each week. Be sure to also
-include the time table for your Project Product in your weekly schedule. You
+include the timetable for your Project Product in your weekly schedule. You
 will need to work with both your BASIS advisor and your On-site advisor to
 complete this. We understand that you may have to revise this as you go.\ \
 To be clear, be sure to include both the work you will be performing in your
