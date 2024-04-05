@@ -27,7 +27,7 @@ def classification(legislative_text: str) -> str:
     )
 
     # Check if the legislative text is too large before sending it to the API.
-    if calculate_tokens(legislative_text) > 40000:
+    if calculate_tokens(legislative_text) > 32485:
         return "large"
 
     try:
