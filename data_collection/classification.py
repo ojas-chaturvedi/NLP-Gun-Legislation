@@ -11,11 +11,11 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
+
 from os import getenv
 from dotenv import load_dotenv
-from json import load
 from openai import OpenAI, RateLimitError
-from time import time, sleep
+from time import sleep
 from tiktoken import encoding_for_model
 import re
 
