@@ -49,7 +49,9 @@ def main(csv_file_path: str) -> None:
             # Scrape the web content from the URL
             text = web_scraper(url)
 
-            save_data(party, name, url, legislation_type, session, date, title, text)
+            classification = classification(text)
+
+            save_data(classification, party, name, url, legislation_type, session, date, title, text)
 
 
 def save_data(
