@@ -25,18 +25,11 @@
 )
 
 = Introduction
-Rough Draft: \ #link("https://docs.google.com/document/d/1hbseYS87pJiiAcG6sDkQe2kfEosCen1DhAmllMVMWA0/edit?usp=sharing")
 
+= Methodology
 
+= Results
 
-= Methods
-Rough Draft: \ #link("https://docs.google.com/document/d/1cupSQJC5GJEFXRmtIariyh0uuER8-0pCcZLE4cSXolY/edit?usp=sharing")
-\ \ \ 
-Feedback: #link("https://docs.google.com/document/d/1TF3q4Q9ELKA5JWYeWcfiyLWSgsXxXqskKQ062xiwkUM/edit?usp=sharing")
+= Discussion / Analysis
 
-= Limitations
-1. Model bias
-2. Change in English during time frame
-3. Duplicate legislation
-4. Terms 'gun' vs 'firearm'
-5. Time due to OpenAI API RateLimitError
+= Conclusion
