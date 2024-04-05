@@ -50,26 +50,22 @@ def classification(legislative_text: str) -> str:
         return response.choices[0].message.content
 
     except RateLimitError as e:
-        print(f"An error occurred: {e}")
         match = re.search(r'Please try again in (\d+m)?(\d+s)?', str(e))
-        print(match)
         if match:
             minutes = int(match.group(1)[:-1]) if match.group(1) else 0
             seconds = int(match.group(2)[:-1]) if match.group(2) else 0
             wait_time = minutes * 60 + seconds
-            print(f"Rate limit reached, waiting for {wait_time} seconds.")
-            sleep(wait_time)
-            return classification(legislative_text)  # Retry after waiting
+            print(f"Rate limit reached, waiting for {minutes} minutes and {seconds} seconds.")
         else:
-            print("Unable to parse retry time. Waiting for 60 seconds.")
-            sleep(60)
-            return classification(legislative_text)  # Retry after default wait time
+            wait_time = 60
+            print(f"Rate limit reached, unable to parse retry time. Waiting for {wait_time} seconds.")
+        sleep(wait_time)
+        return classification(legislative_text) # Retry after waiting
     except Exception as e:
         # Handle other exceptions that might occur
         print(f"An error occurred: {e}")
-        return "An error occurred."
+        return "error"
 
-    return response.choices[0].message.content
 def calculate_tokens(text: str) -> int:
     """
     Get the number of tokens in the given text.
