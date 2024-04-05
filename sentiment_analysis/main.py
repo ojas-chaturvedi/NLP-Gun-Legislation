@@ -51,10 +51,12 @@ def create_graph() -> None:
         compound_all: float = 0
         count: int = 0
 
-        with open(f'data_collection/data/{session}.json', 'r') as f:
+        with open(f"data_collection/data/{session}.json", "r") as f:
             legislative_texts = load(f)
 
-        total_legislation = sum(len(legislation) for legislation in legislative_texts.values())
+        total_legislation = sum(
+            len(legislation) for legislation in legislative_texts.values()
+        )
 
         print(session)
 
@@ -73,7 +75,6 @@ def create_graph() -> None:
         data[session] = compound_average
 
     print(data)
-
 
     # num_117 = testing(117)
     # num_116 = testing(116)
