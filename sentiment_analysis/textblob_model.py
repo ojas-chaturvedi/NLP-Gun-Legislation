@@ -8,7 +8,13 @@ Model Name: TextBlob
 Type: Rule-based model
 Github link: https://github.com/sloria/TextBlob
 Citation:
-
+    @article{loria2018textblob,
+        title={textblob Documentation},
+        author={Loria, Steven},
+        journal={Release 0.15},
+        volume={2},
+        year={2018}
+    }
 """
 
 __author__ = "Ojas Chaturvedi"
