@@ -24,19 +24,19 @@ __license__ = "MIT"
 from textblob import TextBlob
 
 
-def textblob_model(text: str) -> dict:
+def textblob_model(text: str) -> float:
     """Get sentiment dictionary (containing pos, neg, neu, and compound scores)
 
     Args:
-        text (str): Legislative text that will be run through the VADER sentiment analysis model
+        text (str): Legislative text that will be run through the Textblob sentiment analysis model
 
     Returns:
-        dict: Dictionary of legislative text sentiment scores
+        float: Overall sentiment score of legislative text
     """
 
     analyzer = TextBlob(text)
 
-    return analyzer.sentiment
+    return analyzer.sentiment[0]
 
 
 if __name__ == "__main__":
