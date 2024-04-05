@@ -109,6 +109,15 @@ def testing(session) -> int:
     return total_legislation
 
 
+def get_sentiment_str(compound: float) -> str:
+    if compound >= 0.05:
+        return "positive"
+    elif compound <= -0.05:
+        return "negative"
+    else:
+        return "neutral"
+
+
 if __name__ == "__main__":
     main()
     # general_score_average_checker("control", 117)
