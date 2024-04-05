@@ -5,6 +5,7 @@ Purpose: To run legislative text through the VADER Sentiment Analysis Model
 
 
 Model Name: VADER (Valence Aware Dictionary and sEntiment Reasoner)
+Type: Rule-based model
 Github link: https://github.com/cjhutto/vaderSentiment
 Citation:
     Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
