@@ -168,6 +168,12 @@ def find_duplicate_titles(csv_file_path: str) -> map:
     # Return duplicate titles along with their legislation numbers
     return {title: title_legislation_map[title] for title in duplicate_titles}
 
+def get_legislation_count(session: int) -> int:
+    with open(f'data_collection/data/{session}.json', 'r') as f:
+        legislative_texts = load(f)
+
+    total_legislation: int = sum(len(legislation) for legislation in legislative_texts.values())
+    return total_legislation
 
 # Note: this function utilizes the ntfy package, which can be downloaded here: https://ntfy.sh/
 def send_notification(session: str) -> None:
