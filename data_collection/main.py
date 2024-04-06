@@ -8,14 +8,14 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
-from web_scraper import web_scraper
-from classification import classification
-
 from csv import reader
 from itertools import islice
-from json import load, dump, JSONDecodeError
-from time import time
+from json import JSONDecodeError, dump, load
 from subprocess import run
+from time import time
+
+from data_collection.classification import classification
+from data_collection.web_scraper import web_scraper
 
 
 def main(csv_file_path: str) -> None:
@@ -49,9 +49,19 @@ def main(csv_file_path: str) -> None:
             # Scrape the web content from the URL
             text = web_scraper(url)
 
-            classification = classification(text)
+            classification_type = classification(text)
 
-            save_data(classification, party, name, url, legislation_type, session, date, title, text)
+            save_data(
+                classification_type,
+                party,
+                name,
+                url,
+                legislation_type,
+                session,
+                date,
+                title,
+                text,
+            )
 
 
 def save_data(
@@ -168,12 +178,16 @@ def find_duplicate_titles(csv_file_path: str) -> map:
     # Return duplicate titles along with their legislation numbers
     return {title: title_legislation_map[title] for title in duplicate_titles}
 
+
 def get_legislation_count(session: int) -> int:
-    with open(f'data_collection/data/{session}.json', 'r') as f:
+    with open(f"data_collection/data/{session}.json", "r") as f:
         legislative_texts = load(f)
 
-    total_legislation: int = sum(len(legislation) for legislation in legislative_texts.values())
+    total_legislation: int = sum(
+        len(legislation) for legislation in legislative_texts.values()
+    )
     return total_legislation
+
 
 # Note: this function utilizes the ntfy package, which can be downloaded here: https://ntfy.sh/
 def send_notification(session: str) -> None:

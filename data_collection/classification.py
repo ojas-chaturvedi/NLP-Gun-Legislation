@@ -12,12 +12,13 @@ __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
 
+import re
 from os import getenv
+from time import sleep
+
 from dotenv import load_dotenv
 from openai import OpenAI, RateLimitError
-from time import sleep
 from tiktoken import encoding_for_model
-import re
 
 
 def classification(legislative_text: str) -> str:

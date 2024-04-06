@@ -8,11 +8,13 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
-from vader import vader
-
 from json import load
-from tqdm import tqdm
+
 import matplotlib.pyplot as plt
+import numpy as np
+from tqdm import tqdm
+
+from sentiment_analysis.vader_model import vader_model
 
 
 def main() -> None:
@@ -33,7 +35,7 @@ def general_score_average_checker(legislation_type: str, session: int) -> None:
 
     with tqdm(total=legislation_count) as progress_bar:
         for legislation in legislative_texts[legislation_type]:
-            score = vader(legislation["text"])
+            score = vader_model(legislation["text"])
             sentiment_counts[score] += 1
             progress_bar.update(1)
 
@@ -63,7 +65,7 @@ def create_graph() -> None:
         with tqdm(total=total_legislation) as progress_bar:
             for category in legislative_texts.keys():
                 for legislation in legislative_texts[category]:
-                    score = vader(legislation["text"])
+                    score = vader_model(legislation["text"])["compound"]
                     compound_all += score
                     count += 1
                     progress_bar.update()
@@ -96,17 +98,6 @@ def create_graph() -> None:
     # plt.title("The number of legislation per congressional sessions.")
 
     # plt.show()
-
-
-def testing(session) -> int:
-    with open(f"data_collection/data/{session}.json", "r") as f:
-        legislative_texts = load(f)
-
-    total_legislation = sum(
-        len(legislation) for legislation in legislative_texts.values()
-    )
-
-    return total_legislation
 
 
 def get_sentiment_str(compound: float) -> str:

@@ -37,7 +37,7 @@ def flair_model(text: str) -> float:
 
     text = Sentence(text)
 
-    classifier = TextClassifier.load('en-sentiment')
+    classifier = TextClassifier.load("en-sentiment")
     classifier.predict(text)
 
     score = text.labels[0].score
