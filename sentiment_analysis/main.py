@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm
 
+from data_collection.main import get_legislation_count
 from sentiment_analysis.vader_model import vader_model
 
 
@@ -56,9 +57,7 @@ def create_graph() -> None:
         with open(f"data_collection/data/{session}.json", "r") as f:
             legislative_texts = load(f)
 
-        total_legislation = sum(
-            len(legislation) for legislation in legislative_texts.values()
-        )
+        total_legislation = get_legislation_count(session)
 
         print(session)
 
