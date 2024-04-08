@@ -5,7 +5,6 @@ Purpose: To classify each Congressional legislation as pro-gun rights or pro-gun
 """
 
 # Save the OpenAI API and Organization keys manually
-# Organization key is optional
 
 __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
