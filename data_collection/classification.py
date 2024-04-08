@@ -37,31 +37,32 @@ def classification(legislative_text: str) -> str:
             messages=[
                 {
                     "role": "system",
-                    "content": "You will be provided with a legislative text regarding firearms, and your task is to classify it as pro-control or pro-rights. Your response can be one of two things: 'control' or 'rights'."
+                    "content": "You will be provided with a legislative text regarding firearms, and your task is to classify it as pro-control or pro-rights. Your response can be one of two things: 'control' or 'rights'.",
                 },
-                {
-                    "role": "user",
-                    "content": legislative_text
-                }
+                {"role": "user", "content": legislative_text},
             ],
-            temperature=0.0, # Also try 0.7 and 2.0 and check for different results
-            top_p=1
+            temperature=0.0,  # Also try 0.7 and 2.0 and check for different results
+            top_p=1,
         )
 
-        return response.choices[0].message.content
+        return (response.choices[0].message.content.lower())
 
     except RateLimitError as e:
-        match = re.search(r'Please try again in (\d+m)?(\d+s)?', str(e))
+        match = re.search(r"Please try again in (\d+m)?(\d+s)?", str(e))
         if match:
             minutes = int(match.group(1)[:-1]) if match.group(1) else 0
             seconds = int(match.group(2)[:-1]) if match.group(2) else 0
             wait_time = minutes * 60 + seconds
-            print(f"Rate limit reached, waiting for {minutes} minutes and {seconds} seconds.")
+            print(
+                f"Rate limit reached, waiting for {minutes} minutes and {seconds} seconds."
+            )
         else:
             wait_time = 60
-            print(f"Rate limit reached, unable to parse retry time. Waiting for {wait_time} seconds.")
+            print(
+                f"Rate limit reached, unable to parse retry time. Waiting for {wait_time} seconds."
+            )
         sleep(wait_time)
-        return classification(legislative_text) # Retry after waiting
+        return classification(legislative_text)  # Retry after waiting
     except Exception as e:
         # Handle other exceptions that might occur
         print(f"An error occurred: {e}")
