@@ -15,7 +15,7 @@ import numpy as np
 from tqdm import tqdm
 
 from data_collection.main import get_legislation_count
-from sentiment_analysis.vader_model import vader_model
+from vader_model import vader_model
 
 
 def main() -> None:
