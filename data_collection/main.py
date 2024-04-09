@@ -14,8 +14,8 @@ from json import JSONDecodeError, dump, load
 from subprocess import run
 from time import time
 
-from classification import classification
-from web_scraper import web_scraper
+from data_collection.classification import classification
+from data_collection.web_scraper import web_scraper
 
 
 def main(csv_file_path: str) -> None:
