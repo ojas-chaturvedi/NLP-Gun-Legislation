@@ -1,0 +1,431 @@
+{
+    "control": [
+        {
+            "name": "H.R. 246",
+            "date_introduced": "01/06/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 2629",
+            "date_introduced": "04/24/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1931",
+            "date_introduced": "04/27/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 3594",
+            "date_introduced": "07/28/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 2460",
+            "date_introduced": "03/27/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 5033",
+            "date_introduced": "03/28/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 654",
+            "date_introduced": "02/08/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 4390",
+            "date_introduced": "11/18/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 620",
+            "date_introduced": "03/14/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 935",
+            "date_introduced": "04/28/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 5073",
+            "date_introduced": "04/03/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 6318",
+            "date_introduced": "11/13/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 2217",
+            "date_introduced": "05/10/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 665",
+            "date_introduced": "02/08/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 1756",
+            "date_introduced": "09/22/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1415",
+            "date_introduced": "03/17/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 3469",
+            "date_introduced": "07/27/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 3760",
+            "date_introduced": "09/14/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1566",
+            "date_introduced": "04/12/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3540",
+            "date_introduced": "07/28/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1598",
+            "date_introduced": "07/29/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1584",
+            "date_introduced": "07/29/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 947",
+            "date_introduced": "02/17/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5092",
+            "date_introduced": "04/05/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1279",
+            "date_introduced": "03/14/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 4075",
+            "date_introduced": "10/18/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5672",
+            "date_introduced": "06/22/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 4028",
+            "date_introduced": "09/29/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 12",
+            "date_introduced": "01/24/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 3010",
+            "date_introduced": "06/21/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 3875",
+            "date_introduced": "09/07/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 3456",
+            "date_introduced": "06/06/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 4472",
+            "date_introduced": "12/08/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 3708",
+            "date_introduced": "07/20/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5017",
+            "date_introduced": "03/28/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5946",
+            "date_introduced": "07/27/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5631",
+            "date_introduced": "06/16/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 6253",
+            "date_introduced": "09/29/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 6",
+            "date_introduced": "04/18/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1815",
+            "date_introduced": "04/26/2005",
+            "party_of_sponsors": "Republican"
+        }
+    ],
+    "rights": [
+        {
+            "name": "H.R. 4376",
+            "date_introduced": "11/17/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.Res. 530",
+            "date_introduced": "11/02/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 945",
+            "date_introduced": "04/28/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 392",
+            "date_introduced": "02/16/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1259",
+            "date_introduced": "03/10/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.Res. 827",
+            "date_introduced": "05/19/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 4299",
+            "date_introduced": "11/10/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 662",
+            "date_introduced": "02/08/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 5485",
+            "date_introduced": "05/25/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 4802",
+            "date_introduced": "02/16/2006",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 952",
+            "date_introduced": "02/17/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 155",
+            "date_introduced": "01/25/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 970",
+            "date_introduced": "02/17/2005",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 790",
+            "date_introduced": "04/14/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1733",
+            "date_introduced": "04/20/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1082",
+            "date_introduced": "05/19/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1288",
+            "date_introduced": "03/14/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2624",
+            "date_introduced": "05/25/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 397",
+            "date_introduced": "02/16/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 47",
+            "date_introduced": "01/04/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 1082",
+            "date_introduced": "11/14/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1384",
+            "date_introduced": "03/17/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 575",
+            "date_introduced": "11/18/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1035",
+            "date_introduced": "05/13/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 4057",
+            "date_introduced": "11/16/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 4597",
+            "date_introduced": "12/16/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5005",
+            "date_introduced": "03/16/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Con.Res. 407",
+            "date_introduced": "05/19/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3436",
+            "date_introduced": "07/26/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1488",
+            "date_introduced": "07/26/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 864",
+            "date_introduced": "04/20/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S.Con.Res. 117",
+            "date_introduced": "09/21/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.J.Res. 95",
+            "date_introduced": "09/19/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2088",
+            "date_introduced": "05/04/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3358",
+            "date_introduced": "07/20/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 3035",
+            "date_introduced": "05/25/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Con.Res. 168",
+            "date_introduced": "05/26/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 800",
+            "date_introduced": "02/15/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1751",
+            "date_introduced": "04/21/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1042",
+            "date_introduced": "05/17/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1043",
+            "date_introduced": "05/17/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5647",
+            "date_introduced": "06/20/2006",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 600",
+            "date_introduced": "03/10/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2601",
+            "date_introduced": "05/24/2005",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2863",
+            "date_introduced": "06/10/2005",
+            "party_of_sponsors": "Republican"
+        }
+    ]
+}

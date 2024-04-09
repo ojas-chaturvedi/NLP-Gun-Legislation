@@ -1,0 +1,406 @@
+{
+    "control": [
+        {
+            "name": "H.R. 227",
+            "date_introduced": "01/07/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 591",
+            "date_introduced": "02/09/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 35",
+            "date_introduced": "01/25/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 1973",
+            "date_introduced": "12/08/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 4063",
+            "date_introduced": "02/16/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 2554",
+            "date_introduced": "07/15/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1552",
+            "date_introduced": "04/14/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1781",
+            "date_introduced": "05/05/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 436",
+            "date_introduced": "03/02/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 6725",
+            "date_introduced": "12/31/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.Res. 187",
+            "date_introduced": "03/30/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S.Res. 125",
+            "date_introduced": "03/31/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.Res. 612",
+            "date_introduced": "03/30/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 6313",
+            "date_introduced": "08/02/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 367",
+            "date_introduced": "01/20/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 6680",
+            "date_introduced": "12/18/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 207",
+            "date_introduced": "01/26/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 1670",
+            "date_introduced": "10/06/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 3618",
+            "date_introduced": "12/08/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 919",
+            "date_introduced": "05/09/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 6195",
+            "date_introduced": "07/25/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 490",
+            "date_introduced": "12/12/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 6036",
+            "date_introduced": "06/27/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1093",
+            "date_introduced": "03/15/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1321",
+            "date_introduced": "04/01/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1255",
+            "date_introduced": "06/22/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 2323",
+            "date_introduced": "04/19/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 981",
+            "date_introduced": "05/12/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 3295",
+            "date_introduced": "06/14/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 2829",
+            "date_introduced": "08/30/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1950",
+            "date_introduced": "05/23/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2112",
+            "date_introduced": "06/03/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1253",
+            "date_introduced": "06/22/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 3578",
+            "date_introduced": "09/20/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1823",
+            "date_introduced": "05/10/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 4310",
+            "date_introduced": "03/29/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2055",
+            "date_introduced": "05/31/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3671",
+            "date_introduced": "12/14/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 4348",
+            "date_introduced": "04/16/2012",
+            "party_of_sponsors": "Republican"
+        }
+    ],
+    "rights": [
+        {
+            "name": "H.R. 645",
+            "date_introduced": "02/10/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1141",
+            "date_introduced": "03/16/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S.Res. 246",
+            "date_introduced": "07/30/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 798",
+            "date_introduced": "04/12/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 1691",
+            "date_introduced": "10/12/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 2065",
+            "date_introduced": "06/01/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1896",
+            "date_introduced": "05/13/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 1867",
+            "date_introduced": "11/15/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 3254",
+            "date_introduced": "06/04/2012",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "S. 418",
+            "date_introduced": "02/28/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 719",
+            "date_introduced": "02/15/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 1181",
+            "date_introduced": "03/17/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2613",
+            "date_introduced": "07/21/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 2205",
+            "date_introduced": "03/19/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 5846",
+            "date_introduced": "05/18/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 2015",
+            "date_introduced": "12/16/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 6520",
+            "date_introduced": "09/21/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 4269",
+            "date_introduced": "03/27/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2615",
+            "date_introduced": "07/21/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2252",
+            "date_introduced": "06/21/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1959",
+            "date_introduced": "12/07/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3543",
+            "date_introduced": "12/01/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 822",
+            "date_introduced": "02/18/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 495",
+            "date_introduced": "12/14/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 352",
+            "date_introduced": "07/15/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S.Res. 150",
+            "date_introduced": "04/14/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 532",
+            "date_introduced": "02/01/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 4485",
+            "date_introduced": "04/24/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2600",
+            "date_introduced": "07/20/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 420",
+            "date_introduced": "01/25/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S.Res. 148",
+            "date_introduced": "04/14/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 429",
+            "date_introduced": "10/11/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 58",
+            "date_introduced": "01/05/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3131",
+            "date_introduced": "10/06/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.Res. 164",
+            "date_introduced": "03/10/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 2322",
+            "date_introduced": "06/23/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1569",
+            "date_introduced": "09/15/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "S. 1572",
+            "date_introduced": "09/15/2011",
+            "party_of_sponsors": "Democratic"
+        },
+        {
+            "name": "H.R. 3070",
+            "date_introduced": "09/29/2011",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 3989",
+            "date_introduced": "02/09/2012",
+            "party_of_sponsors": "Republican"
+        },
+        {
+            "name": "H.R. 1540",
+            "date_introduced": "04/14/2011",
+            "party_of_sponsors": "Republican"
+        }
+    ]
+}
