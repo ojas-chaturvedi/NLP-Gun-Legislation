@@ -42,22 +42,23 @@ def general_score_average_checker(legislation_type: str, session: int) -> None:
     print(sentiment_counts)
 
 
-
-
-
-
-
-
-
-
-
 def get_sentiment_str(compound: float) -> str:
+    # Only works with VADER and TextBlob, not the HuggingFace models
     if compound >= 0.05:
         return "positive"
     elif compound <= -0.05:
         return "negative"
     else:
         return "neutral"
+
+
+
+
+
+
+
+
+
 
 
 if __name__ == "__main__":
