@@ -8,46 +8,49 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
-from json import JSONDecodeError, dump, load
+
+from csv import DictReader, field_size_limit, writer
+from sys import maxsize
 
 from tqdm import tqdm
 
+field_size_limit(maxsize)
+
 
 def initialize_data(session: int) -> None:
-    """To initialize the JSON files with legislation name, date introduced, and party of sponsors
+    """To initialize the CSV files with legislation name, date introduced, and party of sponsors
 
     Args:
         session (int): Congressional session number
     """
 
-    with open(f"data_collection/data/{session}.json", "r") as f:
-        legislative_texts = load(f)
+    headers = [
+        "Name",
+        "Session",
+        "Date of Introduction",
+        "Party of Sponsors",
+        "Classification",
+    ]
 
-    for category in legislative_texts.keys():
-        for legislation in legislative_texts[category]:
-            data = {
-                "name": legislation["name"],
-                "date_introduced": legislation["date_introduced"],
-                "party_of_sponsors": legislation["party_of_sponsors"],
-            }
+    data_f = open(f"data_collection/data/{session}.csv", "r")
+    legislative_data = DictReader(data_f)
 
-            # Load existing data from file
-            try:
-                with open(f"sentiment_analysis/data/{session}.json", "r") as file:
-                    try:
-                        existing_data = load(file)
-                    except JSONDecodeError:
-                        existing_data = {}
-            except FileNotFoundError:
-                existing_data = {}
+    with open(f"sentiment_analysis/data/{session}.csv", "w") as sentiment_f:
+        write = writer(sentiment_f)
+        write.writerow(headers)
 
-            if category not in existing_data:
-                existing_data[category] = []
-            existing_data[category].append(data)
+        for legislation in legislative_data:
+            data = [
+                legislation["Name"],
+                legislation["Session"],
+                legislation["Date of Introduction"],
+                legislation["Party of Sponsors"],
+                legislation["Classification"],
+            ]
 
-            # Write back to the file
-            with open(f"sentiment_analysis/data/{session}.json", "w") as file:
-                dump(existing_data, file, indent=4)
+            write.writerow(data)
+
+    data_f.close()
 
 
 if __name__ == "__main__":
