@@ -28,6 +28,12 @@
 
 = Methodology
 
+== Data Collection
+
+== Data Classification
+
+== Sentiment Analysis
+
 = Results
 
 = Discussion / Analysis
