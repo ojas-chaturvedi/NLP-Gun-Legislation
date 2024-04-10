@@ -8,14 +8,17 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
-from csv import reader
+from csv import field_size_limit, reader, writer
 from itertools import islice
-from json import JSONDecodeError, dump, load
+from json import load
 from subprocess import run
+from sys import maxsize
 from time import time
 
 from data_collection.classification import classification
 from data_collection.web_scraper import web_scraper
+
+field_size_limit(maxsize)
 
 
 def main(csv_file_path: str) -> None:
@@ -43,6 +46,7 @@ def main(csv_file_path: str) -> None:
 
             # If there is a new session for legislation, send a notification to phone
             if session != previous_session:
+                initialize_csv(session)
                 send_notification(session)
                 previous_session = session
 
@@ -52,20 +56,38 @@ def main(csv_file_path: str) -> None:
             classification_type = classification(text)
 
             save_data(
-                classification_type,
-                party,
                 name,
                 url,
                 legislation_type,
                 session,
                 date,
+                party,
                 title,
                 text,
+                classification_type,
             )
 
 
+def initialize_csv(session: str) -> None:
+    headers = [
+        "Name",
+        "URL",
+        "Legislation Type",
+        "Session",
+        "Date of Introduction",
+        "Party of Sponsors",
+        "Title",
+        "Text",
+        "Classification",
+    ]
+
+    with open(f"data_collection/data/{session}.csv", "w") as f:
+        write = writer(f)
+
+        write.writerow(headers)
+
+
 def save_data(
-    classification: str,
     name: str,
     url: str,
     type: str,
@@ -74,37 +96,25 @@ def save_data(
     party: str,
     title: str,
     text: str,
+    classification: str,
 ) -> None:
     # Construct data object
-    data = {
-        "name": name,
-        "url": url,
-        "bill_type": type,
-        "session": session,
-        "date_introduced": date,
-        "party_of_sponsors": party,
-        "title": title,
-        "text": text,
-    }
+    data = [
+        name,
+        url,
+        type,
+        session,
+        date,
+        party,
+        title,
+        text,
+        classification,
+    ]
 
-    # Load existing data from file
-    try:
-        with open(f"data_collection/data/{session}.json", "r") as file:
-            try:
-                existing_data = load(file)
-            except JSONDecodeError:
-                existing_data = {}
-    except FileNotFoundError:
-        existing_data = {}
+    with open(f"data_collection/data/{session}.csv", "a") as f:
+        write = writer(f)
 
-    # Append new data under the bill classification
-    if classification not in existing_data:
-        existing_data[classification] = []
-    existing_data[classification].append(data)
-
-    # Write back to file
-    with open(f"data_collection/data/{session}.json", "w") as file:
-        dump(existing_data, file, indent=4)
+        write.writerow(data)
 
 
 def get_legislation_type(name: str) -> str:
@@ -206,11 +216,11 @@ if __name__ == "__main__":
     # Run function and see how long it takes
     start_time = time()
 
-    duplicate_titles_map = find_duplicate_titles("data_collection/URL_links.csv")
-    for title, legislation_numbers in duplicate_titles_map.items():
-        print(
-            f"Title '{title}' is duplicated with legislation numbers: {legislation_numbers}"
-        )
+    # duplicate_titles_map = find_duplicate_titles("data_collection/URL_links.csv")
+    # for title, legislation_numbers in duplicate_titles_map.items():
+    #     print(
+    #         f"Title '{title}' is duplicated with legislation numbers: {legislation_numbers}"
+    #     )
 
     main("data_collection/URL_links.csv")
 
