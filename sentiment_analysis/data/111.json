@@ -3,424 +3,592 @@
         {
             "name": "H.R. 257",
             "date_introduced": "01/07/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9973,
+            "textblob": 0.025962301587301593
         },
         {
             "name": "S. 843",
             "date_introduced": "04/21/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9993,
+            "textblob": 0.0008157509157509199
         },
         {
             "name": "H.R. 4298",
             "date_introduced": "12/11/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9984,
+            "textblob": 0.07766183875226434
         },
         {
             "name": "S. 2878",
             "date_introduced": "12/11/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9983,
+            "textblob": 0.07722152772954918
         },
         {
             "name": "H.R. 6137",
             "date_introduced": "09/15/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9468,
+            "textblob": -0.1785714285714286
         },
         {
             "name": "H.R. 1303",
             "date_introduced": "03/04/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9675,
+            "textblob": -0.01340444444444442
         },
         {
             "name": "H.R. 2202",
             "date_introduced": "04/30/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9978,
+            "textblob": 0.08473320158102766
         },
         {
             "name": "H.R. 6362",
             "date_introduced": "09/29/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9987,
+            "textblob": 0.08759397729094699
         },
         {
             "name": "H.Res. 258",
             "date_introduced": "03/18/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.911,
+            "textblob": 0.02213144841269842
         },
         {
             "name": "S.Res. 72",
             "date_introduced": "03/10/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.911,
+            "textblob": 0.02213144841269842
         },
         {
             "name": "H.R. 4000",
             "date_introduced": "11/03/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9994,
+            "textblob": 0.03562678062678063
         },
         {
             "name": "H.R. 4686",
             "date_introduced": "02/24/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.978,
+            "textblob": 0.14115079365079367
         },
         {
             "name": "H.R. 2924",
             "date_introduced": "06/17/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.2846,
+            "textblob": -0.010773809523809526
         },
         {
             "name": "H.Res. 364",
             "date_introduced": "04/27/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9963,
+            "textblob": 0.03744979919678715
         },
         {
             "name": "H.Res. 1032",
             "date_introduced": "01/21/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9719,
+            "textblob": 0.053553113553113554
         },
         {
             "name": "H.R. 1139",
             "date_introduced": "02/23/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.2263,
+            "textblob": 0.1875
         },
         {
             "name": "S. 167",
             "date_introduced": "01/08/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.986,
+            "textblob": 0.1509137173259311
         },
         {
             "name": "H.R. 45",
             "date_introduced": "01/06/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.896,
+            "textblob": -0.01194199134199135
         },
         {
             "name": "H.R. 1448",
             "date_introduced": "03/11/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9956,
+            "textblob": -0.02060020180320933
         },
         {
             "name": "S. 3456",
             "date_introduced": "06/04/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": -0.0774476278823204
         },
         {
             "name": "H.R. 1022",
             "date_introduced": "02/12/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -1.0,
+            "textblob": -0.04401031375060763
         },
         {
             "name": "H.R. 1358",
             "date_introduced": "03/05/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9989,
+            "textblob": 0.01256730024941948
         },
         {
             "name": "S. 1390",
             "date_introduced": "07/02/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.7003,
+            "textblob": -0.085
         },
         {
             "name": "H.R. 1064",
             "date_introduced": "02/13/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": -0.014893360006996405
         },
         {
             "name": "S. 435",
             "date_introduced": "02/13/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": -0.006760746321815066
         },
         {
             "name": "S. 3280",
             "date_introduced": "04/29/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.02495940013407311
         },
         {
             "name": "H.R. 627",
             "date_introduced": "01/22/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.048336643074738235
         },
         {
             "name": "S. 3686",
             "date_introduced": "08/02/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.08216563503311886
         },
         {
             "name": "H.R. 2847",
             "date_introduced": "06/12/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.07369373113695209
         },
         {
             "name": "S. 22",
             "date_introduced": "01/07/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.4939,
+            "textblob": 0.10119047619047618
         },
         {
             "name": "H.R. 3082",
             "date_introduced": "06/26/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9998,
+            "textblob": 0.21163964931950532
         },
         {
             "name": "S.Con.Res. 13",
             "date_introduced": "03/27/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": -0.00427779704572163
         },
         {
             "name": "H.R. 2324",
             "date_introduced": "05/07/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": -0.9984,
+            "textblob": -0.011839826839826838
         },
         {
             "name": "H.Res. 1708",
             "date_introduced": "09/29/2010",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.5454,
+            "textblob": 0.009386446886446891
         },
         {
             "name": "H.Con.Res. 87",
             "date_introduced": "03/30/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9511,
+            "textblob": 0.028972663139329807
         },
         {
             "name": "H.R. 2857",
             "date_introduced": "06/12/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": -1.0,
+            "textblob": -0.02271343635267686
         },
         {
             "name": "S. 3455",
             "date_introduced": "06/04/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.03822222681634086
         },
         {
             "name": "S. 3454",
             "date_introduced": "06/04/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.02391594351696228
         },
         {
             "name": "H.R. 2647",
             "date_introduced": "06/02/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.005483496180308093
         },
         {
             "name": "H.R. 6523",
             "date_introduced": "12/15/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.023468776939314012
         },
         {
             "name": "H.R. 1105",
             "date_introduced": "02/23/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.06752342624243653
         },
         {
             "name": "H.R. 146",
             "date_introduced": "01/06/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.05659565199003963
         },
         {
             "name": "H.R. 3590",
             "date_introduced": "09/17/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.0593786938350157
         }
     ],
     "rights": [
         {
             "name": "H.R. 5827",
             "date_introduced": "07/22/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9841,
+            "textblob": 0.14285714285714285
         },
         {
             "name": "S. 3654",
             "date_introduced": "07/27/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9811,
+            "textblob": 0.15476190476190477
         },
         {
             "name": "H.Res. 1365",
             "date_introduced": "05/18/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9874,
+            "textblob": 0.13802083333333331
         },
         {
             "name": "H.R. 5150",
             "date_introduced": "04/27/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.978,
+            "textblob": 0.04345440175315696
         },
         {
             "name": "H.R. 5162",
             "date_introduced": "04/28/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.978,
+            "textblob": 0.04345440175315696
         },
         {
             "name": "H.Res. 290",
             "date_introduced": "03/26/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9965,
+            "textblob": 0.18761617288961038
         },
         {
             "name": "H.Res. 1440",
             "date_introduced": "06/14/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9601,
+            "textblob": 0.03571428571428572
         },
         {
             "name": "H.Res. 1217",
             "date_introduced": "03/24/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9803,
+            "textblob": 0.0584022038567493
         },
         {
             "name": "H.R. 1534",
             "date_introduced": "03/16/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9559,
+            "textblob": 0.046453634085213046
         },
         {
             "name": "H.R. 1529",
             "date_introduced": "03/16/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9779,
+            "textblob": -0.03550016976487564
         },
         {
             "name": "S. 1801",
             "date_introduced": "10/20/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9953,
+            "textblob": 0.07485599799649385
         },
         {
             "name": "S. 159",
             "date_introduced": "01/06/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9993,
+            "textblob": 0.12433785246285249
         },
         {
             "name": "H.R. 280",
             "date_introduced": "01/07/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 0.9993,
+            "textblob": 0.12433785246285249
         },
         {
             "name": "S. 132",
             "date_introduced": "01/06/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -1.0,
+            "textblob": -0.01864223639528242
         },
         {
             "name": "H.R. 3293",
             "date_introduced": "07/22/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.08042012861074327
         },
         {
             "name": "H.R. 3619",
             "date_introduced": "09/22/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.06003104249280019
         },
         {
             "name": "H.R. 5859",
             "date_introduced": "07/26/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9875,
+            "textblob": 0.0712867687867688
         },
         {
             "name": "S. 3237",
             "date_introduced": "04/21/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": -0.9875,
+            "textblob": 0.0712867687867688
         },
         {
             "name": "H.R. 3021",
             "date_introduced": "06/24/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.8555,
+            "textblob": 0.15833333333333333
         },
         {
             "name": "S. 3265",
             "date_introduced": "04/27/2010",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": -0.978,
+            "textblob": 0.04345440175315696
         },
         {
             "name": "H.R. 3022",
             "date_introduced": "06/24/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9736,
+            "textblob": 0.18786764705882353
         },
         {
             "name": "H.R. 17",
             "date_introduced": "01/06/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": -0.9976,
+            "textblob": -0.018942577030812337
         },
         {
             "name": "H.Res. 681",
             "date_introduced": "07/27/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.8789,
+            "textblob": 0.12142857142857141
         },
         {
             "name": "H.Res. 568",
             "date_introduced": "06/19/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": -0.875,
+            "textblob": 0.20664335664335662
         },
         {
             "name": "S. 2462",
             "date_introduced": "10/29/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.8954,
+            "textblob": 0.22727272727272724
         },
         {
             "name": "H.R. 1074",
             "date_introduced": "02/13/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9222,
+            "textblob": 0.18459821428571427
         },
         {
             "name": "H.Res. 625",
             "date_introduced": "07/10/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9922,
+            "textblob": 0.059375000000000004
         },
         {
             "name": "H.Res. 1534",
             "date_introduced": "07/19/2010",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9699,
+            "textblob": 0.21220538720538717
         },
         {
             "name": "H.Res. 1505",
             "date_introduced": "07/01/2010",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.995,
+            "textblob": 0.23492063492063492
         },
         {
             "name": "S. 556",
             "date_introduced": "03/10/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9191,
+            "textblob": 0.225
         },
         {
             "name": "S. 1638",
             "date_introduced": "08/06/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9894,
+            "textblob": 0.06323129251700679
         },
         {
             "name": "H.R. 3789",
             "date_introduced": "10/13/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9894,
+            "textblob": 0.06323129251700679
         },
         {
             "name": "H.R. 442",
             "date_introduced": "01/09/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.992,
+            "textblob": 0.018949275362318854
         },
         {
             "name": "S. 3273",
             "date_introduced": "04/28/2010",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9963,
+            "textblob": 0.06873160173160174
         },
         {
             "name": "H.R. 3893",
             "date_introduced": "10/21/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 0.9953,
+            "textblob": 0.07485599799649385
         },
         {
             "name": "H.R. 5590",
             "date_introduced": "06/24/2010",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": 1.0,
+            "textblob": 0.03525379801884363
         },
         {
             "name": "S. 160",
             "date_introduced": "01/06/2009",
-            "party_of_sponsors": "Independent Democrat"
+            "party_of_sponsors": "Independent Democrat",
+            "vader": 0.0,
+            "textblob": 0.0
         },
         {
             "name": "H.R. 6161",
             "date_introduced": "09/22/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.052561654465063494
         },
         {
             "name": "H.R. 5136",
             "date_introduced": "04/26/2010",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.03641817179604679
         },
         {
             "name": "H.R. 3288",
             "date_introduced": "07/22/2009",
-            "party_of_sponsors": "Democratic"
+            "party_of_sponsors": "Democratic",
+            "vader": 1.0,
+            "textblob": 0.06578766870642196
         },
         {
             "name": "H.R. 1772",
             "date_introduced": "03/26/2009",
-            "party_of_sponsors": "Republican"
+            "party_of_sponsors": "Republican",
+            "vader": -1.0,
+            "textblob": -0.01103046123276003
         }
     ]
 }
