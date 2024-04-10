@@ -52,20 +52,48 @@ def get_sentiment_str(compound: float) -> str:
         return "neutral"
 
 
+def save_data(session: int, model: str) -> None:
+    model_functions = {
+        "vader": vader_model,
+        "textblob": textblob_model,
+    }
 
+    with open(f"sentiment_analysis/data/{session}.json", "r") as f:
+        legislative_sentiments = load(f)
+    with open(f"data_collection/data/{session}.json", "r") as f:
+        legislative_texts = load(f)
 
+    total_legislation: int = sum(
+        len(legislation) for legislation in legislative_sentiments.values()
+    )
 
+    with tqdm(total=total_legislation) as progress_bar:
+        for category in legislative_sentiments.keys():
+            for legislation in legislative_sentiments[category]:
 
+                name = legislation["name"]
+                for legislation_text in legislative_texts[category]:
+                    if name == legislation_text["name"]:
+                        text = legislation_text["text"]
 
+                sentiment_function = model_functions.get(model)
+                sentiment = sentiment_function(text)
 
+                legislation[model] = sentiment
+                progress_bar.update(1)
 
+    with open(f"sentiment_analysis/data/{session}.json", "w") as file:
+        dump(legislative_sentiments, file, indent=4)
 
 
 if __name__ == "__main__":
-    main()
-    # general_score_average_checker("control", 117)
-    # general_score_average_checker("rights", 117)
+    # Remember to run sentiment_analysis/initialize.py first before saving sentiment analysis model scores to JSON files
 
-    # general_score_average_checker("control", 116)
-    # general_score_average_checker("rights", 116)
+    session_start = 107
+    session_end = 117
 
+    for session in range(session_start, session_end + 1):
+        print("-" * 30)
+        print(f"Session {session}")
+        save_data(session, "vader")
+        save_data(session, "textblob")
