@@ -18,21 +18,21 @@ __license__ = "MIT"
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
-def vader_model(text: str) -> dict:
-    """Get sentiment dictionary (containing pos, neg, neu, and compound scores)
+def vader_model(text: str) -> float:
+    """Get sentiment score from dictionary (containing pos, neg, neu, and compound scores)
 
     Args:
         text (str): Legislative text that will be run through the VADER sentiment analysis model
 
     Returns:
-        dict: Dictionary of legislative text sentiment scores
+        float: Compound sentiment score of legislative text
     """
 
     analyzer = SentimentIntensityAnalyzer()
 
     sentiment_dict: dict = analyzer.polarity_scores(text)
 
-    return sentiment_dict
+    return sentiment_dict["compound"]
 
 
 if __name__ == "__main__":
