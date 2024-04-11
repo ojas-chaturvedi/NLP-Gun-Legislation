@@ -36,7 +36,7 @@ def classification(legislative_text: str) -> str:
             messages=[
                 {
                     "role": "system",
-                    "content": "You will be provided with a legislative text regarding firearms, and your task is to classify it as pro-control or pro-rights. Your response can be one of two things: 'control' or 'rights'.",
+                    "content": "You will be provided with a legislative text regarding firearms, and your task is to classify it as pro-control or pro-rights. Your response can be one of two things: 'control' or 'rights'. Remember, I do not want a summary or anything. I just want a classification of the legislation.",
                 },
                 {"role": "user", "content": legislative_text},
             ],
