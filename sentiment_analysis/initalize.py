@@ -54,7 +54,7 @@ def initialize_data(session: int) -> None:
 
 
 if __name__ == "__main__":
-    session_start = 107
+    session_start = 101
     session_end = 117
 
     with tqdm(total=(session_end - session_start)) as progress_bar:
