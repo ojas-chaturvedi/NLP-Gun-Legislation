@@ -8,16 +8,16 @@ __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
 __license__ = "MIT"
 
-from json import dump, load
+from csv import field_size_limit, reader, writer
+from json import load
+from sys import maxsize
 
 from tqdm import tqdm
 
 from sentiment_analysis.textblob_model import textblob_model
 from sentiment_analysis.vader_model import vader_model
 
-
-def main() -> None:
-    print("Hello World!")
+field_size_limit(maxsize)
 
 
 def general_score_average_checker(legislation_type: str, session: int) -> None:
@@ -54,36 +54,35 @@ def get_sentiment_str(compound: float) -> str:
 
 def save_data(session: int, model: str) -> None:
     model_functions = {
-        "vader": vader_model,
-        "textblob": textblob_model,
+        "VADER": vader_model,
+        "TextBlob": textblob_model,
     }
 
-    with open(f"sentiment_analysis/data/{session}.json", "r") as f:
-        legislative_sentiments = load(f)
-    with open(f"data_collection/data/{session}.json", "r") as f:
-        legislative_texts = load(f)
+    sentiment_function = model_functions.get(model)
 
-    total_legislation: int = sum(
-        len(legislation) for legislation in legislative_sentiments.values()
-    )
+    with open(f"data_collection/data/{session}.csv", "r") as f:
+        read = reader(f)
+        legislative_data = list(read)
 
-    with tqdm(total=total_legislation) as progress_bar:
-        for category in legislative_sentiments.keys():
-            for legislation in legislative_sentiments[category]:
+    with open(f"sentiment_analysis/data/{session}.csv", "r") as f:
+        read = reader(f)
+        data = list(read)
 
-                name = legislation["name"]
-                for legislation_text in legislative_texts[category]:
-                    if name == legislation_text["name"]:
-                        text = legislation_text["text"]
+    data[0].append(f"{model} Sentiment Score")
 
-                sentiment_function = model_functions.get(model)
-                sentiment = sentiment_function(text)
+    with tqdm(total=len(data)) as progress_bar:
+        for i in range(1, len(data)):
+            name = data[i][0]
+            for legislation in legislative_data:
+                if name == legislation[0]:
+                    text = legislation[7]
+            sentiment = sentiment_function(text)
+            data[i].append(sentiment)
+            progress_bar.update(1)
 
-                legislation[model] = sentiment
-                progress_bar.update(1)
-
-    with open(f"sentiment_analysis/data/{session}.json", "w") as file:
-        dump(legislative_sentiments, file, indent=4)
+    with open(f"sentiment_analysis/data/{session}.csv", "w") as f:
+        write = writer(f)
+        write.writerows(data)
 
 
 if __name__ == "__main__":
@@ -95,5 +94,5 @@ if __name__ == "__main__":
     for session in range(session_start, session_end + 1):
         print("-" * 30)
         print(f"Session {session}")
-        save_data(session, "vader")
-        save_data(session, "textblob")
+        save_data(session, "VADER")
+        save_data(session, "TextBlob")
