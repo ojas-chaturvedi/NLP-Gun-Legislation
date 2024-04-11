@@ -3,22 +3,23 @@
 This project employs advanced multi-model sentiment analysis techniques to systematically dissect and understand the framing of gun control issues within U.S. Congressional legislation from 2001 to 2023. It aims to uncover the emotional and rhetorical strategies deployed in legislative discourse, offering insights into how these narratives influence public perception and policy-making in the realm of gun control.
 
 - [Legislative Narratives on Gun Control in the United States: A Multi-Model Sentiment Analysis Approach (2001-2023)](#legislative-narratives-on-gun-control-in-the-united-states-a-multi-model-sentiment-analysis-approach-2001-2023)
-    - [Project Setup](#project-setup)
-    - [Project Description](#project-description)
-    - [Weekly Blog Updates](#weekly-blog-updates)
-    - [Research Question](#research-question)
-    - [Background / Context](#background--context)
-      - [Rationale for Using Sentiment Analysis](#rationale-for-using-sentiment-analysis)
-    - [Important Definitions](#important-definitions)
-    - [Assumptions](#assumptions)
-    - [Significance / Importance of Study](#significance--importance-of-study)
-    - [Method of Inquiry](#method-of-inquiry)
+  - [Project Setup](#project-setup)
+  - [Project Description](#project-description)
+  - [Weekly Blog Updates](#weekly-blog-updates)
+  - [Research Question](#research-question)
+  - [Background / Context](#background--context)
+    - [Rationale for Using Sentiment Analysis](#rationale-for-using-sentiment-analysis)
+  - [Important Definitions](#important-definitions)
+  - [Assumptions](#assumptions)
+  - [Significance / Importance of Study](#significance--importance-of-study)
+  - [Method of Inquiry](#method-of-inquiry)
 
 ### Project Setup
 
 1. Optional: Create a Python virtual environment
 2. Install all the Python requirements: `pip install -r requirements.txt`
-3. **CONTINUE HERE**
+3. Set python path in .zshrc or .bashrc for correct imports
+4. **CONTINUE HERE**
 
 ### Project Description
 
