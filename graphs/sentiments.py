@@ -1,7 +1,7 @@
 #!/opt/homebrew/bin/python3
 """
 Name: graphs/sentiments.py
-Purpose: To make graphs with the sentiment scores and other factors
+Purpose: To create csv files for graphs with the sentiment scores and other factors
 """
 
 __author__ = "Ojas Chaturvedi"
