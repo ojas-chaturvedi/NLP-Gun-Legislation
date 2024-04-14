@@ -16,6 +16,9 @@ from tqdm import tqdm
 
 field_size_limit(maxsize)
 
+session_start = 101
+session_end = 117
+
 
 def initialize_data(session: int) -> None:
     """To initialize the CSV files with legislation name, date introduced, and party of sponsors
@@ -54,9 +57,6 @@ def initialize_data(session: int) -> None:
 
 
 if __name__ == "__main__":
-    session_start = 101
-    session_end = 117
-
     with tqdm(total=(session_end - session_start)) as progress_bar:
         for session in range(session_start, session_end + 1):
             initialize_data(session)

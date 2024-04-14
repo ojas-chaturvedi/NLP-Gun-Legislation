@@ -14,6 +14,7 @@ from sys import maxsize
 
 from tqdm import tqdm
 
+from sentiment_analysis.initialize import session_end, session_start
 from sentiment_analysis.textblob_model import textblob_model
 from sentiment_analysis.vader_model import vader_model
 
@@ -87,9 +88,6 @@ def save_data(session: int, model: str) -> None:
 
 if __name__ == "__main__":
     # Remember to run sentiment_analysis/initialize.py first before saving sentiment analysis model scores to JSON files
-
-    session_start = 107
-    session_end = 117
 
     for session in range(session_start, session_end + 1):
         print("-" * 30)
