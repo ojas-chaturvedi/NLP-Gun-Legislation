@@ -4,7 +4,7 @@ Name: data_collection/classification.py
 Purpose: To classify each Congressional legislation as pro-gun rights or pro-gun control using the OpenAI ChatGPT LLM
 """
 
-# Save the OpenAI API and Organization keys manually
+# Save the OpenAI API and Organization keys manually in a .env file at directory of file run
 
 __author__ = "Ojas Chaturvedi"
 __github__ = "github.com/ojas-chaturvedi"
@@ -32,7 +32,7 @@ def classification(legislative_text: str) -> str:
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-3.5-turbo",
             messages=[
                 {
                     "role": "system",
@@ -72,8 +72,7 @@ def calculate_tokens(text: str) -> int:
     """
     Get the number of tokens in the given text.
     """
-    # encoding = get_encoding("cl100k_base")
-    encoding = encoding_for_model("gpt-4")
+    encoding = encoding_for_model("gpt-3.5-turbo")
     num_tokens = len(encoding.encode(text))
 
     return num_tokens
