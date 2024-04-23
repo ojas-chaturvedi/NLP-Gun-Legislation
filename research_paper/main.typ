@@ -50,5 +50,3 @@ _(Interprets the significance of results in the context of the research question
 
 = Conclusion & Future Directions
 _(Highlights a new understanding, the limitations of your methodology, possible implications of your project, and future research that could be accomplished)_
-
-= Reference List
