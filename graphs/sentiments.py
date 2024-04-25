@@ -25,7 +25,10 @@ for session in range(session_start, session_end + 1):
         date = datetime.strptime(legislation["Date of Introduction"], "%m/%d/%Y").date()
         sentiment = float(legislation["VADER Sentiment Score"])
 
-        sentimentVStime[date] = sentiment
+        if date not in sentimentVStime:
+            sentimentVStime[date] = []
+
+        sentimentVStime[date].append(sentiment)
 
         if legislation["Classification"] == "control":
             control.append(sentiment)
@@ -44,10 +47,11 @@ with open("graphs/overall.csv", "w") as file:
 
     write.writerow(headers)
 
-    for date, sentiment in sentimentVStime.items():
-        data = [date, sentiment]
+    for date, sentiments in sentimentVStime.items():
+        for value in sentiments:
+            data = [date, value]
 
-        write.writerow(data)
+            write.writerow(data)
 
 with open("graphs/control_histogram.csv", "w") as file:
     write = writer(file)
