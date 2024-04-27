@@ -22,7 +22,8 @@ for session in range(session_start, session_end + 1):
     csvFile = DictReader(open(f"sentiment_analysis/data/{session}.csv", "r"))
 
     for legislation in csvFile:
-        date = datetime.strptime(legislation["Date of Introduction"], "%m/%d/%Y").date()
+        date = datetime.strptime(legislation["Date of Introduction"], "%m/%d/%Y")
+
         sentiment = float(legislation["VADER Sentiment Score"])
 
         if date not in sentimentVStime:
@@ -49,7 +50,8 @@ with open("graphs/overall.csv", "w") as file:
 
     for date, sentiments in sentimentVStime.items():
         for value in sentiments:
-            data = [date, value]
+            date_new = f"{date.strftime("%m")}/{date.strftime("%d")}/{date.strftime("%Y")}"
+            data = [date_new, value]
 
             write.writerow(data)
 
