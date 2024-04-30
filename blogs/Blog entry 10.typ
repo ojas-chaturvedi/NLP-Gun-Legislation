@@ -1,13 +1,13 @@
 #import "@local/typst-templates:0.1.0": general_template
 #show: general_template.with(
-  title: "Blog Entry 10",
+  title: "Research Paper -- Writing And Statistics",
   prefix: [_AP Research & Senior Research Project_],
   authors: none,
   suffix: [#link("https://github.com/ojas-chaturvedi")],
   enable-footer: true,
 )
 
-Last week, I finished generating my results and creating graphs for an analysis of my results. However, while the analysis of the graphs had some interesting results, the main question of the project still wasn't answered: To what extent do the sentiments expressed in pro-control versus pro-rights congressional gun legislation differ? 
+Last week, I finished generating my results and creating graphs for an analysis of my results. However, while the analysis of the graphs had some interesting results, the main question of the project still wasn't answered: To what extent do the sentiments expressed in pro-control versus pro-rights congressional gun legislation differ?
 
 To understand how the legislation sentiments differ, a statistics test must be implemented to compare the sentiments of pro-control and pro-rights legislation together. A T-test was chosen as it would help determine if there is a significant difference between the means of the 2 sides and how they are related. Specifically, I will be conducting a 2 independent sample T-test, as I go in with the assumption that the sentiments of the sides are independent and have no effect on each other.
 
