@@ -1,4 +1,4 @@
-# Legislative Narratives on Gun Control in the United States: A Multi-Model Sentiment Analysis Approach (2001-2023)
+# Legislative Narratives on Gun Control in the United States: A Sentiment Analysis Approach
 
 This project employs advanced multi-model sentiment analysis techniques to systematically dissect and understand the framing of gun control issues within U.S. Congressional legislation from 2001 to 2023. It aims to uncover the emotional and rhetorical strategies deployed in legislative discourse, offering insights into how these narratives influence public perception and policy-making in the realm of gun control.
 
