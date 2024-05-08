@@ -20,8 +20,8 @@ session_start = 101
 session_end = 117
 
 
-def initialize_data(session: int) -> None:
-    """To initialize the CSV files with legislation name, date introduced, and party of sponsors
+def revert_data(session: int) -> None:
+    """To revert the CSV files back to legislative details without sentiment scores
 
     Args:
         session (int): Congressional session number
@@ -29,35 +29,41 @@ def initialize_data(session: int) -> None:
 
     headers = [
         "Name",
+        "URL",
+        "Legislation Type",
         "Session",
         "Date of Introduction",
         "Party of Sponsors",
+        "Title",
+        "Text",
         "Classification",
     ]
 
-    data_f = open(f"data_collection/data/{session}.csv", "r")
-    legislative_data = DictReader(data_f)
+    data_old = DictReader(open(f"src/data/{session}.csv", "r"))
 
-    with open(f"sentiment_analysis/data/{session}.csv", "w") as sentiment_f:
-        write = writer(sentiment_f)
-        write.writerow(headers)
+    data_new = [headers]
 
-        for legislation in legislative_data:
-            data = [
-                legislation["Name"],
-                legislation["Session"],
-                legislation["Date of Introduction"],
-                legislation["Party of Sponsors"],
-                legislation["Classification"],
-            ]
+    for legislation in data_old:
+        data = [
+            legislation["Name"],
+            legislation["URL"],
+            legislation["Legislation Type"],
+            legislation["Session"],
+            legislation["Date of Introduction"],
+            legislation["Party of Sponsors"],
+            legislation["Title"],
+            legislation["Text"],
+            legislation["Classification"],
+        ]
 
-            write.writerow(data)
+        data_new.append(data)
 
-    data_f.close()
+    write = writer(open(f"src/data/{session}.csv", "w"))
+    write.writerows(data_new)
 
 
 if __name__ == "__main__":
     with tqdm(total=(session_end - session_start)) as progress_bar:
         for session in range(session_start, session_end + 1):
-            initialize_data(session)
+            revert_data(session)
             progress_bar.update(1)
