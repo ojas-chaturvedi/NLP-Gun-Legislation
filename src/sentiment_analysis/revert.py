@@ -1,7 +1,7 @@
 #!/opt/homebrew/bin/python3
 """
-Name: sentiment_analysis/initialize.py
-Purpose: To initialize all the JSON files in sentiment_analysis/data with required data before the sentiment scores
+Name: src/sentiment_analysis/revert.py
+Purpose: To revert all the JSON files in src/data with required data before the sentiment scores
 """
 
 __author__ = "Ojas Chaturvedi"
