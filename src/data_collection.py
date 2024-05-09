@@ -10,6 +10,7 @@ __license__ = "MIT"
 
 from csv import field_size_limit, reader, writer
 from itertools import islice
+from os import makedirs, path
 from subprocess import run
 from sys import maxsize
 
@@ -78,6 +79,11 @@ def initialize_csv(session: str) -> None:
         "Text",
         "Classification",
     ]
+
+    # Ensure the directory exists
+    directory = "src/data/"
+    if not path.exists(directory):
+        makedirs(directory)
 
     with open(f"src/data/{session}.csv", "w") as f:
         write = writer(f)
