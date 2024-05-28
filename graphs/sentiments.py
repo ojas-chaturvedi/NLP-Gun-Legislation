@@ -12,14 +12,14 @@ __license__ = "MIT"
 from csv import DictReader, writer
 from datetime import datetime
 
-from sentiment_analysis.initialize import session_end, session_start
+from src.sentiment_analysis.revert import session_end, session_start
 
 sentimentVStime = {}
 control = []
 rights = []
 
 for session in range(session_start, session_end + 1):
-    csvFile = DictReader(open(f"sentiment_analysis/data/{session}.csv", "r"))
+    csvFile = DictReader(open(f"src/data/{session}.csv", "r"))
 
     for legislation in csvFile:
         date = datetime.strptime(legislation["Date of Introduction"], "%m/%d/%Y")
@@ -50,7 +50,9 @@ with open("graphs/overall.csv", "w") as file:
 
     for date, sentiments in sentimentVStime.items():
         for value in sentiments:
-            date_new = f"{date.strftime("%m")}/{date.strftime("%d")}/{date.strftime("%Y")}"
+            date_new = (
+                f"{date.strftime("%m")}/{date.strftime("%d")}/{date.strftime("%Y")}"
+            )
             data = [date_new, value]
 
             write.writerow(data)
@@ -75,4 +77,21 @@ with open("graphs/rights_histogram.csv", "w") as file:
 
     for value in rights:
         data = [value]
+        write.writerow(data)
+
+with open("graphs/overall2.csv", "w") as file:
+    write = writer(file)
+
+    headers = ["Classification", "Sentiment Scores"]
+
+    write.writerow(headers)
+
+    for value in control:
+        data = ["control", value]
+
+        write.writerow(data)
+
+    for value in rights:
+        data = ["rights", value]
+
         write.writerow(data)

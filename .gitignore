@@ -53,6 +53,7 @@ wheels/
 env/
 venv/
 ENV/
+requirements-dev.lock
 
 # Firebase
 .idea

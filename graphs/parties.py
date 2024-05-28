@@ -10,7 +10,7 @@ __license__ = "MIT"
 
 from csv import DictReader, writer
 
-from sentiment_analysis.initialize import session_end, session_start
+from src.sentiment_analysis.revert import session_end, session_start
 
 control = {
     "democratic": 0,
