@@ -10,6 +10,8 @@ __license__ = "MIT"
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -21,7 +23,7 @@ def web_scraper(url: str) -> str:
     url += "/text?format=txt"
 
     # Simulate Chrome browser to retrieve HTML source code
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     driver.get(url)
 
     # Explicitly wait for the <pre> tag to be available, otherwise return error as text
